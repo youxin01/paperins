@@ -1,0 +1,72 @@
+
+
+Full length article
+
+Contents lists available at [ScienceDirect](www.sciencedirect.com/science/journal/01604120)
+
+# Environment International
+
+
+
+journal homepage: [www.elsevier.com/locate/envint](https://www.elsevier.com/locate/envint)
+
+# Using artificial intelligence tools for data quality evaluation in the context of microplastic human health risk assessments
+
+
+
+Yanning Qiu \* , Svenja Mintenig , Margherita Barchiesi , Albert A. Koelmans
+
+*Aquatic Ecology and Water Quality Management Group, Wageningen University and Research, P.O. Box 47 6700 AA Wageningen, the Netherlands*
+
+#### ARTICLE INFO
+
+Large language models
+
+*Keywords:*
+
+ChatGPT Gemini
+
+Handling Editor: Adrian Covaci
+
+Quality Assurance and Quality Control
+
+# ABSTRACT
+
+Concerns about the negative impacts of microplastics on human health are increasing in society, while exposure and risk assessments require high-quality, reliable data. Although quality assurance and –control (QA/QC) frameworks exist to evaluate the reliability of data for these purposes, manually assessing studies is too timeconsuming and prone to inconsistencies due to semantic ambiguities and evaluator bias. The rapid growth of microplastic studies makes manually screening relevant data practically unfeasible. This study explores the potential of artificial intelligence (AI), specifically large language models (LLMs) such as OpenAI's ChatGPT and Google's Gemini, to streamline and standardize the QA/QC screening of data in microplastics research. We developed specific prompts based on previously published QA/QC criteria for the analysis of microplastics in drinking water and its sources, and used these to instruct AI tools to evaluate 73 studies published between 2011 and 2024. Our approach demonstrated the effectiveness of AI in extracting relevant information, interpreting the reliability of studies, and replicating human assessments. The findings indicate that AI-assisted assessments show promise in improving speed, consistency and applicability in QA/QC tasks, as well as in ranking studies or datasets based on their suitability for exposure and risk assessments. This groundbreaking application of LLMs in the environmental sciences suggests that AI can play a vital role in harmonizing microplastics risk assessments within regulatory frameworks and demonstrates how to meet the demands of an increasingly data-intensive application domain.
+
+# **1. Introduction**
+
+Public concern is growing about the potential risks that microplastics may pose to human health ([Thompson et al., 2024; Wright](#page-7-0) & Kelly, [2017\)](#page-7-0). Accurately assessing these risks requires high-quality data that are specifically suited for analyzing exposure levels and health effects ([Koelmans et al., 2022](#page-7-0)). However, the variability and inconsistency in analytical methods used across studies have made it challenging to assess data reliability accurately, emphasizing the need for standardized approaches for data quality screening. To address this issue, several quality assurance and − control (QA/QC) tools have been developed to ensure the reliability of analytical data used in exposure assessments ([Hermsen et al., 2018; Koelmans et al., 2019; Redondo-Hasselerharm](#page-7-0)  [et al., 2023; WHO, 2019; Wright et al., 2021](#page-7-0)). These QA/QC tools cover various aspects of the analytical procedure, such as sampling methods, sample treatment, lab preparation, use of controls and polymer identification ([De Ruijter et al., 2020; Hermsen et al., 2018; Koel](#page-7-0)[mans et al., 2019](#page-7-0)). For each of these aspects, criteria are defined, allowing scores of '0' (not reliable), '1' (reliable with restrictions), or '2' (fully reliable) to be assigned [\(Hermsen et al., 2018](#page-7-0)). The total accumulated score (TAS) reflects the completeness of information provided by a study; however, a single 'zero' renders the data unreliable, as all criteria are considered essential. These scores facilitate the quantitative comparison of data reliability and the harmonization of microplastic risk assessments across regulatory frameworks.
+
+However, applying these QA/QC tools usually requires a thorough review of the publication regarding multiple defined criteria. As the number of studies increases rapidly, manual assessments become increasingly impractical and time consuming. For instance, over 1000 studies on human microplastic exposure have been published over the past three years (Supplementary Text S1). Keeping up with this pace to perform QA/QC scoring on each study individually is nearly impossible.
+
+In addition to the significant time investment required for scoring, other challenges persist with human-based scoring. For example, different researchers or research groups may arrive at varying results due to differences in prior knowledge, inconsistencies in the semantic
+
+<https://doi.org/10.1016/j.envint.2025.109341>
+
+Available online 17 February 2025 Received 24 December 2024; Received in revised form 5 February 2025; Accepted 17 February 2025
+
+0160-4120/© 2025 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license [\(http://creativecommons.org/licenses/by/4.0/\)](http://creativecommons.org/licenses/by/4.0/).
+
+<sup>\*</sup> Corresponding author. *E-mail address:* [yanning.qiu@wur.nl](mailto:yanning.qiu@wur.nl) (Y. Qiu).
+
+understanding of criteria, variations in word interpretation, and overall ambiguity in the data quality assessment tasks. Finally, we emphasize that the previously developed QA/QC evaluation tools only pertain to usability in risk assessment, based on specifically constructed criteria. However, they say nothing about the quality of the data or studies as such, in relation to the research questions as formulated by the authors. In this context, it is an ethical principle that QA/QC screening is carried out as consistently and accurately as possible.
+
+Recent advancements in artificial intelligence (AI), such as generative AI and large language models (LLMs), have the potential to facilitate screening of whether and how studies incorporated QA/QC considerations into their work. Several chatbots utilizing LLMs have been released and have demonstrated significant potential in processing language and generating meaningful responses for various purposes. For instance, OpenAI's ChatGPT and Google's Gemini can analyze large volumes of text data and produce coherent outputs ([Ali et al., 2023](#page-7-0)). The potential applications of these tools in research have been extensively discussed, demonstrating proven utility in tasks like text annotation ([Gilardi et al., 2023\)](#page-7-0), understanding semantics [\(Le Mens et al., 2023](#page-7-0)), and multilingual psychological text analysis ([Rathje et al., 2024](#page-7-0)). To date, most research applications of LLMs have been concentrated in the field of social sciences, whereas in the natural sciences, only a few studies have attempted to apply LLMs to extract information from scientific literature ([Dagdelen et al., 2024; Hu et al., 2024; Liang et al.,](#page-7-0)  [2024; Zheng et al., 2023\)](#page-7-0) or to answer scientific questions ([Jablonka](#page-7-0)  [et al., 2024; Zhu et al., 2024](#page-7-0)). The potential of LLMs in quantitative natural sciences remains to be explored further ([Wu et al., 2024; Zhu](#page-8-0)  [et al., 2023\)](#page-8-0). Applying these tools in environmental research, particularly for screening the implementation of QA/QC criteria − an inherently text-focused task − could be especially beneficial.
+
+In this study, we aimed to test the applicability of LLMs in assessing data reliability of existing microplastic research in the context of exposure and risk assessment. We developed prompts based on our previous QA/QC criteria for the analysis of microplastics in freshwater and drinking water ([Koelmans et al., 2019\)](#page-7-0), and used these prompts to instruct AI tools, namely ChatGPT and Gemini. We tested the performance of these LLMs in 1) extracting relevant text from scientific publications and 2) interpreting information and assessing the data reliability based on human-provided instructions. We validated the performance of LLMs by comparing AI-generated evaluations with those conducted by human professionals using the publication set from our previous study ([Koelmans et al., 2019](#page-7-0)). Additionally, we applied the LLMs to evaluate the publications on microplastics in drinking water that were published between 2021 and 2024. Our study provides a first assessment of the capability of LLMs in performing QA/QC screening tasks in microplastic research, with direct relevance for evaluating human exposure to microplastics through drinking water.
+
+#### **2. Methods**
+
+#### *2.1. Literature datasets*
+
+This study assessed two datasets focusing on microplastics in drinking water and its sources. Microplastics in drinking water is a critical area for human risk assessment, since drinking water is one of the primary sources of microplastic ingestion [\(WHO, 2019](#page-7-0)). Dataset 1 has undergone thorough human assessments in our previous study ([Koelmans et al., 2019](#page-7-0)), and was used to develop and test the applicability of the AI screening tool. After validating the AI screening tool's performance, we applied the tool to Dataset 2, a more recent dataset that had not been previously assessed manually.
+
+#### *2.1.1. Dataset 1*
+
+This dataset includes forty-three studies reporting microplastic concentrations in drinking water (1 tap water, 3 bottled water, 1 water from drinking water treatment plants) or its freshwater sources (26 surface water and 12 water from wastewater treatment plants). These publications were retrieved from the Scopus database using the search string: microplastic AND (bottle OR surface OR tap OR wastewater OR groundwater), and were reviewed in our previous study [\(Koelmans](#page-7-0)  [et al., 2019](#page-7-0)). In the present study, we kept only peer-reviewed publications in English, and excluded studies that addressed multiple water types (e.g. [Vermaire et al., 2017,](#page-7-0) which analyzed both surface water and effluent samples from wastewater treatment plants) or were from grey literature sources. For more information regarding the inclusion standard and search procedure we refer to [Koelmans et al. 2019](#page-7-0). For a comprehensive list of selected papers see Supplementary Text S2.
+
+## *2.1.2. Dataset 2*
+
+This dataset includes thirty studies published between 2021 and 2024, focusing on microplastic concentrations in drinking water and its direct sources such as bottled water, tap water, well water and water from drinking water treatment plants. These studies were retrieved from the Scopus database using the search string: microplastic AND (tap water OR bottled water OR mineral water OR drinking water OR well water OR drinking water treatment plants) AND human. The search was conducted in July 18, 2024. Only peer-reviewed publications in English (i.e., no grey literature) that focused on a single water type, consistent with the inclusion criteria for Dataset 1, were included. For a comprehensive list of selected papers see Supplementary Text S3.
+

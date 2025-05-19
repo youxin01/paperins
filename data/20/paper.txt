@@ -1,0 +1,311 @@
+
+
+Contents lists available at [ScienceDirect](www.sciencedirect.com/science/journal/01604120)
+
+# Environment International
+
+
+
+journal homepage: [www.elsevier.com/locate/envint](https://www.elsevier.com/locate/envint)
+
+Full length article
+
+AI-aided chronic mixture risk assessment along a small European river reveals multiple sites at risk and pharmaceuticals being the main risk drivers
+
+Fabian G. Weichert a,\* [,](https://orcid.org/0000-0002-5995-6790) Pedro A. Inostroza b,c,\* , Jorg ¨ Ahlheim <sup>d</sup> , Thomas Backhaus b,c , Werner Brack a,d , Mario Brauns <sup>e</sup> [,](https://orcid.org/0000-0002-5012-9721) Patrick Fink e,f,i , Martin Krauss <sup>d</sup> , Patrik Svedberg <sup>c</sup> [,](https://orcid.org/0000-0001-6622-5366) Henner Hollert a,g,h
+
+<sup>a</sup> *Department Evolutionary Ecology & Environmental Toxicology, Faculty of Biological Sciences* – *Goethe University Frankfurt, Frankfurt am Main, Germany*
+
+<sup>b</sup> *Institute for Environmental Research, RWTH Aachen University, Aachen, Germany*
+
+<sup>c</sup> *Department of Biological and Environmental Sciences, University of Gothenburg, Gothenburg, Sweden*
+
+<sup>d</sup> *Department of Exposure Science, Helmholtz Centre for Environmental Research* – *UFZ, Leipzig, Germany*
+
+<sup>e</sup> *Department of River Ecology, Helmholtz Centre for Environmental Research* – *UFZ, Magdeburg, Germany*
+
+<sup>f</sup> *Department of Aquatic Ecosystem Analysis and Management, Helmholtz Centre for Environmental Research* – *UFZ, Magdeburg, Germany*
+
+<sup>g</sup> *LOEWE Centre for Translational Biodiversity Genomics (LOEWE-TBG), Frankfurt am Main, Germany*
+
+<sup>h</sup> *Department Environmental Media Related Ecotoxicology, Fraunhofer Institute for Molecular Biology and Applied Ecology IME, Frankfurt am Main, Germany*
+
+<sup>i</sup> *General Ecology, Institute for Zoology, University of Cologne, Cologne, Germany*
+
+#### ARTICLE INFO
+
+Editor: Marti Nadal
+
+*Keywords:* Chronic mixture risk assessment Multi-scenario mixture risk assessment Artificial intelligence-aided hazard assessment *In silico* (eco)toxicity predictions Large-volume solid phase extraction
+
+# ABSTRACT
+
+The vast amount of registered chemicals leads to a high diversity of substances occurring in the environment and the creation of new substances outpaces chemical risk assessment as well as monitoring strategies. Hence, risk assessment strategies need to be modified ensuring that they remain aligned with the rapid development and marketing of new substances. Here we performed a longitudinal chronic mixture risk assessment considering a real-world case study scenario with diverse anthropogenic impact types characterised by different land uses along a river in Central Germany. We sampled river water using large-volume solid phase extraction at six selected sampling sites. Following chemical analysis using liquid chromatography-high resolution mass spectrometry, we quantified 192 substances. For 34 % of them, we obtained empirical chronic effect data for freshwater organisms. Furthermore, we used the open-source artificial intelligence (AI) model TRIDENT to predict chronic toxicity for all substances. A multi-scenario mixture risk assessment was conducted for three taxonomic groups, using the concentration-addition concept and considering various hazard and exposure scenarios. The results showed that the chronic risk estimates for all taxonomic groups were considerably higher when the empirical data was amended with data from *in silico* modelling. We identified hotspots of chemical pollution and our analysis indicated that fish were the most vulnerable taxonomic group, with pharmaceuticals being the most relevant risk drivers. Our study exemplifies the application of an AI model to predict chronic risk for aquatic organisms in combination with the consideration of multiple risk scenarios that may complement future risk assessment strategies.
+
+# **1. Introduction**
+
+Environmental pollution is one of the five main drivers of global biodiversity loss ([IPBES, 2019\)](#page-11-0) and a major driver of global change ([Bernhardt et al., 2017](#page-10-0)). Furthermore, it is a major contributor to the
+
+deteriorated ecological status of surface waters ([Lemm et al., 2021;](#page-11-0)  [Malaj et al., 2014\)](#page-11-0). However, the consequences for biodiversity and functions of ecosystems are not fully understood ([Sylvester et al., 2023;](#page-11-0)  [Wang et al., 2020\)](#page-11-0). There are approximately 350,000 different chemical substances and mixtures currently registered for use and production
+
+<https://doi.org/10.1016/j.envint.2025.109370>
+
+Available online 13 March 2025 0160-4120/© 2025 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license [\(http://creativecommons.org/licenses/by/4.0/\)](http://creativecommons.org/licenses/by/4.0/). Received 14 November 2024; Received in revised form 8 February 2025; Accepted 10 March 2025
+
+
+
+<sup>\*</sup> Corresponding authors at: Department Evolutionary Ecology & Environmental Toxicology, Faculty of Biological Sciences – Goethe University Frankfurt, Frankfurt
+
+am Main, Germany (F.G. Weichert). Institute for Environmental Research, RWTH Aachen University, Aachen, Germany (P.A. Inostroza).
+
+*E-mail addresses:* [weichert@bio.uni-frankfurt.de](mailto:weichert@bio.uni-frankfurt.de) (F.G. Weichert), [pedro.inostroza@rwth-aachen.de](mailto:pedro.inostroza@rwth-aachen.de) (P.A. Inostroza).
+
+([Wang et al., 2020\)](#page-11-0). In addition, more than 30 new chemicals are discovered every hour [\(Backhaus et al., 2012](#page-10-0)), some of which will likely be incorporated into new industrial and consumer products in the future. This rate of chemical discovery far outpaces the capacity for comprehensive chemical risk assessment and monitoring ([Persson et al.,](#page-11-0)  [2022; Richardson et al., 2023; Wang et al., 2020](#page-11-0)). Consequently, new risk assessment tools and strategies are required with the capabilities and capacities to keep up with the rapid development and marketing of new substances.
+
+Traditionally, risk assessment has focused on individual substances, largely ignoring mixture effects. Within the last decade, awareness of mixture risks has been growing ([Drakvik et al., 2020; Treu et al., 2024](#page-10-0)), which is also reflected in the European Union's Chemicals Strategy for Sustainability (European [Commission, 2020\)](#page-10-0).
+
+Mixture risk assessment (MRA) strategies used to identify hotspots of pollution as well as the subsequent identification of key mixture risk drivers are often based on the concentration addition (CA) assumption, which has been shown to be a reliable estimate and well applicable to environmental mixtures with known components ([Backhaus and Faust,](#page-10-0)  [2012; Gustavsson et al., 2017; Inostroza et al., 2024](#page-10-0)). However, CA requires information on the (eco)toxicity of all mixture components, which is a major hurdle for its application to complex environmental mixtures ([Finckh et al., 2022; Gustavsson et al., 2023; Spilsbury et al.,](#page-10-0)  [2020\)](#page-10-0). Achieving a comprehensive risk assessment of real-world exposure scenarios is therefore not feasible without the integration of *in silico*  techniques for predicting toxicities, such as Quantitative Structure-Activity Relationships (QSARs), in order to cope with the sheer number of substances lacking empirical (eco)toxicity data for various taxa. Here also the consideration of species-specific sensitivity is essential for a more comprehensive understanding of ecological risks and improvement of the identification of the most affected taxonomic groups ([Posthuma et al., 2019b, Posthuma et al., 2019a\)](#page-11-0).
+
+Classical QSAR models largely build on regression models that correlate structural features and physicochemical properties, such as the log *K*OW of a substance, with its activity (toxicity). Even though QSAR models have been used in ecotoxicological research for decades, their use has been critically discussed. For instance, challenges include diverse and heterogeneous datasets introducing noise and inconsistencies into models. Also, there are unreliable predictions for compounds that fall outside the narrow applicability domains of several classical QSAR models [\(De et al., 2022; Gramatica, 2013](#page-10-0)).
+
+A new generation of (eco)toxicity modelling techniques has therefore begun to gain traction. Artificial Intelligence (AI) and deep learning methodologies have been successfully used to predict e.g., molecular functioning [\(Zhang et al., 2023\)](#page-12-0) as well as acute toxicity ([Wu et al.,](#page-12-0)  [2022; Zhang et al., 2022; Zubrod et al., 2023\)](#page-12-0), and the scientific literature on the potential uses of AI is growing ([Kleinstreuer and Hartung,](#page-11-0)  [2024; Rillig et al., 2024; von Borries et al., 2023\)](#page-11-0). Very recent advances in the field show that transformers in connection with deep neural networks have been shown to deliver remarkably accurate predictions of both acute and chronic toxicity in aquatic organisms [\(Gustavsson et al.,](#page-10-0)  [2024\)](#page-10-0). These new tools have great potential to improve the risk assessment of complex environmental mixtures and so far, no deep learning-based approaches to toxicity prediction have been used in chronic MRA to the best of our knowledge.
+
+The present study therefore implements a comprehensive AI-aided longitudinal chronic risk assessment in a real-world scenario, considering various anthropogenic impact types along different river stretches. In this study, we identify (1) hotspots of chemical pollution to isolate priority sites for further investigation, (2) the taxonomic groups that are particularly vulnerable to the mixtures detected at the sampling sites, and (3) the risk drivers amongst the multitude of encountered chemicals. A major focus of this paper is the use of different exposure and hazard scenarios to account for uncertainty due to chemicals present below chemical-analytical detection limits and the uncertainty of the predicted ecotoxicity data.
+
+## **2. Materials & methods**
+
+Detailed descriptions of the case study area, the sampling sites, sampling procedures, and sample preparation as well as liquid chromatography-high resolution mass spectrometry (LC-HRMS) analysis of organic micropollutants are published in [Weichert et al. \(2024a\)](#page-11-0). Therefore, only brief summaries are given below.
+
+# *2.1. Case study area*
+
+The Holtemme River (length: ca. 47 km; catchment area: ca. 282 km<sup>2</sup> ) in Central Germany is part of the Elbe/Saale/Bode river system and exemplifies a low mountain stream with a gradient of anthropogenic influence [\(Fink et al., 2020\)](#page-10-0). Sources of chemical pollution include runoff from agricultural land or urban areas, rainwater retention basins as well as two wastewater treatment plants, Silstedt and Halberstadt, with 80,000 and 60,000 population equivalents, respectively ([Bartels et al.,](#page-10-0)  [2020; Landesamt für Umweltschutz Sachsen-Anhalt, 2019; Weitere](#page-10-0)  [et al., 2021\)](#page-10-0). Within the last decade, the Holtemme River has been a site of interest for various studies, including chemical exposure analysis in different matrices, biological effect assessment of various *in vitro* and *in vivo* endpoints and their interconnection [\(Beckers et al., 2018, 2020;](#page-10-0)  [Inostroza et al., 2016, 2017; Muschket et al., 2018, 2021; Schmitz et al.,](#page-10-0)  2022; Svara ˇ [et al., 2021; Weichert et al., 2024a; Weitere et al., 2021](#page-10-0)), which is of great value for the prioritisation of the sampling sites used in the present study.
+
+# *2.2. Sites, sampling and sample preparation*
+
+In October 2021, six sampling sites along the river course (**Site1, Site2, Site3, Site4, Site5** and **Site6**) were selected, based on knowledge from prior studies ([Beckers et al., 2020, 2018; Inostroza et al., 2017,](#page-10-0)  [2016; Schmitz et al., 2022; Svara](#page-10-0) ˇ et al., 2021; Weitere et al., 2021), covering distinct land uses [\(Fig. 1,](#page-2-0) Table S1) and therefore various anthropogenic impact types. At each sampling site, 25 L of river water were sampled (continuous sampling over a period of about one hour) by large-volume solid phase extraction (LVSPE) [\(Schulze et al., 2017](#page-11-0)). The exact locations, date and time of each sampling as well as current water parameters are provided in Table S1. In addition to the samples collected at the above sampling locations, a trip blank sample cartridge was carried under the same conditions during the field trip and eluted in the same manner as the samples to provide a control for potential processing-related contamination ([Weichert et al., 2024a\)](#page-11-0).
+
+## *2.3. LC-HRMS analysis*
+
+Briefly, reconstituted LVSPE extracts (with a relative enrichment factor (REF) of 1000) were spiked with an internal standard mixture consisting of 39 isotope-labelled compounds ([Finckh et al., 2022\)](#page-10-0) and injected into an UltiMate 3000 LC system (Thermo Scientific). After separation on a reversed-phase column, the samples were analysed with a QExactive Plus quadrupole-Orbitrap HRMS (Thermo Scientific) using electrospray ionisation (ESI) in positive and negative mode. Finally, the R package {MZquant} ([Schulze et al., 2021\)](#page-11-0) was used to quantify the target compounds after blank correction and calibration. The target list for the compounds analysed in this study was derived from prior knowledge on substances and their respective compound classes frequently detected in streams and rivers across Europe [\(Beckers et al.,](#page-10-0)  [2023; Finckh et al., 2022\)](#page-10-0). The method detection limits (MDLs) for each target compound were determined based on the method detailed in ([US](#page-11-0)  [EPA, 2016\)](#page-11-0).
+
+## *2.4. Empirical ecotoxicological data*
+
+Empirical ecotoxicological data for the 457 measured compounds were retrieved, whenever available, following the descriptions in
+
+<span id="page-2-0"></span>
+
+**Fig. 1.** Representation of the Holtemme River catchment, showing the sampling sites, wastewater treatment plants and land-use within the area. Generated using European Union's Copernicus Land Monitoring Service information; [https://doi.org/10.2909/71c95a07-e296-44fc-b22b-415f42acfdf0.](https://doi.org/10.2909/71c95a07-e296-44fc-b22b-415f42acfdf0)
+
+[Inostroza et al. \(2024\)](#page-10-0). Briefly, data were obtained from the US EPA ECOTOXicology Knowledgebase (ECOTOX, version ecotox\_ascii\_09\_14\_2023, [\(Olker et al., 2022\)](#page-11-0)). Only freshwater data were retained, and records lacking essential information such as exposure durations, measurement endpoints, concentration units, or valid data sources, as well as those that only report limit values, were excluded. Following the recommendations of [Warne et al. \(2018\)](#page-11-0), only chronic data was used (exposure durations of *>*1, ≥14, and ≥21 days for algae, aquatic invertebrates, and fish, respectively) and recalculated to chronic EC10-equivalents (NOEL/NOECs and EC/IC/LC1-20-values, MATCs, LOEL/LOECs, EC/ED/IC/LC50-values1 were divided by 1, 2, 2.5 and 5, respectively). The EC10-equivalents were converted to micromoles per litre (μmol/L), and taxonomic groups were assigned to species using an in-house dataset derived from reported phyla in ECOTOX. Finally, the geometric mean for each taxonomic group and chemical was calculated, to account for variation and provide a robust measure less susceptible to outliers compared to arithmetic means.
+
+### *2.5. In silico predictions of chronic aquatic ecotoxicity*
+
+Risk assessment based solely on available empirical data may underestimate mixture risks and provide limited insights. To address this issue, researchers and regulators promote the complementary use of *in silico* models to predict ecotoxicological properties (European [Commis](#page-10-0)[sion, 2018;](#page-10-0) United [Nations, 2023](#page-11-0)). In the present study, two *in silico*  models were used and compared – the Ecological Structure Activity Relationships (ECOSAR) Program, one of the most widely used *in silico*  tools, and the TRIDENT model, an innovative AI-based predictive tool.
+
+The ECOSAR Program (version 2.2, US EPA, Washington, DC, USA) was used to predict the chronic toxicity for green algae, daphnids (as representative of aquatic invertebrates), and fish for all chemicals detected. Chemical identification was based on corresponding canonical Simplified Molecular-Input Line-Entry System (SMILES) codes, which served as input to predict toxicity in the form of chronic values (ChV). SMILES codes were curated and canonicalised using the *Standardizer* and *Marvin/JChem* (v17.21.0 2019) by ChemAxon ([http://www.chemaxon.](http://www.chemaxon.com/)  [com](http://www.chemaxon.com/)). When multiple predictions per taxonomic group and chemical were provided by the software, the geometric mean of the ChVs from different QSAR models was calculated. Lastly, the predicted ChVs were converted to μmol/L. More information on the methodologies used to obtain and consolidate ECOSAR data is detailed in [Svedberg et al.](#page-11-0)  [\(2023\).](#page-11-0)
+
+The TRIDENT model used to predict chronic toxicity is a *Bidirectional Encoder Representations from Transformers* (BERT)-based language model (ChemBERTa) combined with a deep neural network. The model and its performance are described in detail elsewhere ([Gustavsson et al., 2024](#page-10-0)). Briefly, the TRIDENT transformer is pre-trained on a large dataset, comprising approximately 144k empirical toxicity measurements for 6469 substances in 1842 species. The model converts SMILES codes into a high-dimensional embedding vector which characterises the toxicity of the molecular structure. This vector is complemented with details on exposure duration (24–720 h), the toxicological effect of interest (*mortality*, *growth*, *intoxication*, *reproduction* or *population effects*) and endpoint (EC10 or EC50) before it is fed into a deep neural network. The output of this network is a predicted effect concentration (EC50 or EC10), for algae, aquatic invertebrates or fish.
+
+All source codes and background information are located in online repositories (<https://github.com/StyrbjornKall/TRIDENT> and <https://huggingface.co/StyrbjornKall>) and the model can be used through a web interface ([https://trident.serve.scilifelab.se/\)](https://trident.serve.scilifelab.se/).
+
+The datasets for this study were obtained from the TRIDENT web
+
+<sup>1</sup> EC: effect concentration, LC: lethal concentration, IC: inhibitory concentration, ED: effective dose, NOEC/NOEL: no-observed-effect concentration/ level, LOEC/LOEL: lowest-observed-effect concentration/level, MATC: maximum acceptable toxicant concentration.
+
+<span id="page-3-0"></span>interface. The batch of canonical SMILES codes for the 457 substances reliably measured during the study ([Weichert et al., 2024b, 2024a\)](#page-11-0) were uploaded and EC10-values were obtained for each taxonomic group. For algae, a dataset for the available toxicological effect *population* was retrieved (exposure duration: 24 h). For aquatic invertebrates, one dataset per toxicological effect (*mortality*, *intoxication*, *reproduction* and *population effects*) was downloaded with an exposure duration setting of 336 h (14 days). Lastly, EC10-values for fish were obtained for the available toxicological effects of *mortality* and *growth* at a duration setting of 504 h (21 days). The exposure duration were defined, in line with the retrieval of empirical data, based on the minimum requirements for data being recognised as "chronic", following the recommendations of [Warne et al. \(2018\).](#page-11-0) For aquatic invertebrates and fish, the geometric mean was calculated from the predictions for each chemical.
+
+# *2.6. Mixture risk assessment*
+
+Briefly, the MRA was based on the CA concept and performed separately for the three taxonomic groups algae, aquatic invertebrates and fish as well as for the most sensitive taxonomic group (MST approach). The latter considers only the smallest EC10-values across the three aforementioned taxonomic groups per chemical and is, therefore, the most protective environmental risk assessment approach ([Backhaus](#page-10-0)  [and Faust, 2012; Gustavsson et al., 2017](#page-10-0)).
+
+To express the risk for a specific taxonomic group and identify hotspots of pollution ([Backhaus and Faust, 2012; Gustavsson et al., 2017](#page-10-0)), the risk quotient (RQΣTU) was defined as follows:
+
+$$\mathsf{RQ}\_{\sum \mathsf{T}U} = \sum\_{l=1}^{n} \mathsf{RQ}\_{l} = \sum\_{l=1}^{n} \frac{\mathsf{MEC}\_{l}}{\mathsf{EC}\_{10,l}}$$
+
+where *RQi* is the risk quotient of chemical *i*, which is defined as the ratio between *MECi* (measured environmental concentration) and *EC10,i*  (chronic EC10-equivalent) of chemical *i* for algae, aquatic invertebrates or fish. This reflects a summation of Toxic Units (TUs), thus dimensionless measures of the contribution of chemical *i* to the overall mixture toxicity.
+
+For the MST approach [\(Gustavsson et al., 2017\)](#page-10-0), the mixture risk quotient (*RQMST*) was defined as:
+
+$$RQ\_{\text{MST}} = \sum\_{l=1}^{n} \frac{\text{MEC}\_l}{\min\left(EC\_{10, \text{algue}, l}; \, EC\_{10, \text{apu}, \text{lowerade}, l}; \, EC\_{10, \text{fth}, l}\right)}$$
+
+where *MECi* is the measured environmental concentration of a chemical *i*  and min(*EC10,algae,i*; *EC10,aqua.invertebrate,i*; *EC10,fish,i*) is the smallest chronic EC10-equivalent of a chemical *i* for algae, aquatic invertebrates or fish.
+
+For the calculation of RQs, three different exposure scenarios (ES) were defined based on the treatment of non-detects (i.e. compounds for which quantification of a concentration was not possible, following the LC-HRMS analysis) in MECs (Table 1).
+
+As summarised in Table 2, three main hazard scenarios (HS1, HS2, HS3) were used based on the toxicological data used. Two additional hazard scenarios were defined, based on only using the toxicological data from modelling approaches in ECOSAR and TRIDENT (HS4, HS5). We also included four specific hazard scenarios, assuming the modelling estimates may be off by two orders of magnitude (HS2a, HS2b, HS3a, HS3b). The idea of this approach is to consider the modelling uncertainty and is justified in more detail in [Inostroza et al. \(2024\).](#page-10-0)
+
+From the ES1 and ES2, various types of mixture risk drivers were determined, as defined in [Inostroza et al. \(2024\)](#page-10-0). Briefly, for the HS1 – HS3, *actual* mixture risk drivers were identified. These types of riskdriving substances are defined by their contribution to overall toxicity with an RQi ≥ 0.02. Additionally, *potential* mixture risk drivers were identified from the HS2b and HS3b. A substance is highlighted as a potential risk driver if the uncertainty of modelling approaches (two **Table 1** 
+
+| Description of handling of non-detects in the dataset for individual exposure |  |  |  |  |  |  |
+|-------------------------------------------------------------------------------|--|--|--|--|--|--|
+| scenarios.                                                                    |  |  |  |  |  |  |
+
+| Exposure<br>scenarios | Handling of non-detects for the respective scenarios for the<br>mixture risk assessment                                                                                                                                                       |
+|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ES1                   | Non-detects are set to zero, representing the lowest risk scenario<br>compatible with the data.                                                                                                                                               |
+| ES2                   | Non-detects are set to their method detection limits (MDLs),<br>representing the highest risk scenario compatible with the data.                                                                                                              |
+| ES3                   | Non-detects are replaced by Kaplan-Meier estimate* (<br>Gustavsson et al., 2017; Helsel, 2012; Inostroza et al., 2024),<br>providing an accurate basis for risk assessment but not allowing<br>the identification of individual risk drivers. |
+
+\* The Kaplan-Meier estimation is a non-parametric statistical method for handling censored data, such as concentrations below the MDL. Briefly, a mean is calculated based on an empirical cumulative distribution function constructed for censored data (survival analysis). The method considers the distribution of the respective probabilities for detected and non-detected values.
+
+**Table 2** 
+
+Description of the hazard data used for individual hazard scenarios.
+
+| Hazard<br>scenarios | Hazard data used for the mixture risk assessment                                |
+|---------------------|---------------------------------------------------------------------------------|
+| HS1                 | Only chronic empirical ecotoxicological data from the US EPA<br>ECOTOX database |
+| HS2                 | HS1 amended by chronic ECOSAR predictions                                       |
+| HS2a                | HS1 amended by chronic ECOSAR predictions multiplied by a<br>factor of 100      |
+| HS2b                | HS1 amended by chronic ECOSAR predictions divided by a factor<br>of 100         |
+| HS3                 | HS1 amended by chronic TRIDENT predictions                                      |
+| HS3a                | HS1 amended by chronic TRIDENT predictions multiplied by a<br>factor of 100     |
+| HS3b                | HS1 amended by chronic TRIDENT predictions divided by a<br>factor of 100        |
+| HS4                 | Only chronic ECOSAR predictions                                                 |
+| HS5                 | Only chronic TRIDENT predictions                                                |
+
+orders of magnitude below the predicted toxicity value) is considered and results in an RQi ≥ 0.02.
+
+# *2.7. Data accessibility and data analysis*
+
+Data analyses and data visualisation were executed in R version 4.4.2 ([R Development Core Team, 2008\)](#page-11-0). A principal component analysis (PCA) was conducted to visualise the chemical fingerprint of each sample, using the *prcomp()* function in R. The concentrations of all substances were included as input variables, and the data dimensionality was reduced to the first two principal components for analysis. The Kaplan-Meier estimators were calculated and integrated into the analysis using resources from the R-package {NADA} [\(Lee, 2020\)](#page-11-0). Following the FAIR (Findable, Accessible, Interoperable, and Reusable) principles, all raw data including LVSPE measurements ([Weichert et al., 2024b,](#page-11-0)  [2024a\)](#page-11-0), ECOTOX data, ECOSAR and TRIDENT predictions, and analysis scripts from R ([Weichert et al., 2024c](#page-11-0)) are openly accessible through the platform Zenodo, ensuring transparency and reproducibility.
+
+#### **3. Results**
+
+#### *3.1. Occurrence of organic chemicals along the Holtemme river*
+
+192 substances from ten different chemical classes, from a total of 457 substances included in the analytical suite, were detected above the respective method detection limit (MDL) in at least one of the samples. In the trip blank sample and the samples from Site1 and Site2, only five, eight and 40 compounds were detected, respectively. In the samples from Site3, Site4, Site5 and Site6 we detected 157, 138, 126 and 169
+
+<span id="page-4-0"></span>individual compounds above the MDL (Table S2). A PCA of the measured concentrations revealed that the samples from Site1 and Site2, situated in the upper reaches and within the city of Wernigerode, along with the trip blank, showed a comparable chemical fingerprint. Furthermore, samples from Site4 and Site5, collected between the two WWTPs, clustered closely, whereas samples from Site3 and Site6, located directly downstream of the WWTPs occupy a clearly different position in the PCA plot (Fig. 2A).
+
+Considering the highest concentrations of each of the detected compounds, 19 substances from diverse chemical classes make up the top 10 %, with concentrations ranging between 1.7 ng/L and 11.4 µg/L. The largest share of compounds were categorised as pharmaceuticals or personal care and household products, but also compounds of industrial origin, like polymer additives, intermediates and dyes were found among the compounds with the highest concentrations (Fig. 2B).
+
+# *3.2. Chronic effect data from the ECOTOX database and the in silico modelling*
+
+We retrieved empirical data for chronic toxicity from the ECOTOX database for 190 out of the total 457 target compounds. From the subset of the 192 compounds detected above the respective MDL at one or more sites, we retrieved data for 63 substances. Depending on the taxonomic group of interest, these data covered information on chronic toxicity for 20–31 % of the compounds (Table 3).
+
+ECOSAR was able to predict the chronic toxicity of 448 out of 457 compounds for all taxonomic groups of interest. For nine substances, the programme could not predict toxicity as these were found to be outside of the applicability domain (compounds with a log *K*OW *>* 8 and/or a molecular weight *>* 1000 g/L are considered outside the applicability domain). As the TRIDENT model does have a larger applicability domain, we could retrieve chronic toxicity predictions for all taxonomic groups and all 457 compounds of interest. A representation of the relationships between the effect datasets including only the overlaps (i.e. showing for how many compounds we found empirical data from each taxonomic group as well as from *in silico* predictions) is depicted in an Euler diagram in Fig. S1.
+
+## *3.3. Mixture risk assessment and sites at risk*
+
+We applied 27 possible risk scenario combinations (i.e. nine hazard scenarios × three exposure scenarios) for each sample, each taxonomic group as well as the most sensitive taxonomic group (MST approach), resulting in a total of 756 risk quotient (RQ) sums (Fig. S2).
+
+#### **Table 3**
+
+Overview on the chronic effect data per taxonomic group retrieved from the respective sources (ECOTOX database, ECOSAR and TRIDENT modelling) in the present study.
+
+| Origin of data |       | Algae           | Aquatic<br>invertebrates | Fish            | Total           |
+|----------------|-------|-----------------|--------------------------|-----------------|-----------------|
+| ECOTOX         | Total | 142 (31.1<br>%) | 108 (23.6 %)             | 109 (23.9<br>%) | 190 (41.6<br>%) |
+|                | >MDL  | 57 (29.7<br>%)  | 38 (19.8 %)              | 39 (20.3<br>%)  | 63 (32.8<br>%)  |
+| ECOSAR         | Total | 448 (98.0<br>%) | 448 (98.0 %)             | 448 (98.0<br>%) | 448 (98.0<br>%) |
+|                | >MDL  | 189 (98.4<br>%) | 189 (98.4 %)             | 189 (98.4<br>%) | 189 (98.4<br>%) |
+| TRIDENT        | Total | 457 (100<br>%)  | 457 (100 %)              | 457 (100<br>%)  | 457 (100<br>%)  |
+|                | >MDL  | 457 (100<br>%)  | 457 (100 %)              | 457 (100<br>%)  | 457 (100<br>%)  |
+
+To identify sites at risk, we considered a risk quotient sum in the MST approach (RQMST) with a value equal to or higher than 1.0 as a threshold. [Fig. 3](#page-5-0) represents a summary of the RQMST calculated for all samples and the five main hazard scenarios HS1 – HS5, which are detailed in [Table 2.](#page-3-0) The *in silico* predictions for the remaining hazard scenarios HS2a, HS3a, HS2b and HS3b were multiplied and divided by a factor of 100 to examine model inaccuracies and to identify potential risk drivers. All risk quotients of the possible combinations of hazard and exposure scenarios are presented in Fig. S2.
+
+The lowest RQMST values were calculated for ES1 followed by ES3. Logically, using ES2 (all non-detects set to MDL) resulted in the highest RQMST. A comparison of the individual MDLs with the obtained chronic toxicity data (Fig. S3) indicates that the chemical-analytical methods used have a sufficiently high sensitivity in relation to the chronic toxicity of the compounds under consideration. Moreover, as previously observed by [Inostroza et al. \(2024\),](#page-10-0) the inclusion of Kaplan-Meier estimates had only a small influence on the MRA outcome. This is also indicated by the minimal deviations between ES1 and ES3 (ΔRQMST ≤ 0.01 for HS1-HS3) in Fig. S2. Consequently, we used the Kaplan-Meier estimation (ES3) as the most realistic exposure scenario to categorise sites as well as taxonomic groups at risk [\(Fig. 4](#page-5-0)) and ES1 to identify mixture risk drivers. This is due to the fact that the Kaplan-Meier method used here estimates the contribution of non-detects to the sum of RQs, rather than the contributions of individual compounds, which is required to identify mixture risk drivers.
+
+HS1 resulted in the lowest, HS2 in slightly higher and HS3 in the
+
+
+
+**Fig. 2.** (A) Principal component analysis of the chemical profile for each sample. (B) For each sample, the concentrations of the top 10 % of compounds detected in at least one of the samples. The colours of the dots represent the sampling site while the colours close to the compound names indicate the compound class. TB: trip blank. Note that the data point for TB in panel A appears behind the dot of Site1.
+
+<span id="page-5-0"></span>
+
+**Fig. 3.** Summarising tile plot showing the Risk Quotient sums of the most sensitive taxonomic group (RQMST) for each Exposure Scenario (ES) and the main five Hazard Scenarios (HS) and each sample (Site1-Site6). Note: the scale is continuous from 0.01 to 3.5 and grey tiles indicate an RQ sum below 0.01. TB: trip blank.
+
+
+
+**Fig. 4.** Circular bar plot showing the sum of Risk Quotients (RQs) for Exposure Scenario 3 and the three different Hazard Scenarios (HS) at each sampling site (Site1 – Site6). Panel (A) shows the results for the sum of RQs of the most sensitive trophic group. Panel (B) shows the results for the sum of RQs for each of the three taxonomic groups, algae, aquatic invertebrates and fish. Note that the y-axis in panel B is scaled differently to enhance readability.
+
+highest RQMST, as the RQs depend on the number of considered compounds when using the CA concept. For HS4 and HS5, the latter always resulted in higher risk estimates, though independent of the exposure scenario, the RQMST for the samples from Site3 – Site6 were lowest using HS4 and highest using HS3 (HS4 *<* HS5 *<* HS1 *<* HS2 *<* HS3). The results for the samples with fewer compounds detected (i.e. Site1, Site2 and the trip blank) indicated greater dependency between the hazard scenarios and the exposure scenarios on the resulting RQMST.
+
+Fig. 4A shows that for the MST approach, Site3 and Site6 were identified as at risk independent of the underlying hazard scenario and using HS3 likewise indicated Site4 and Site5 as at risk. Nonetheless, when HS1 and HS2 were applied, the RQMST for Site4 (0.97 and 0.99, respectively) and Site5 (0.77 and 0.79, respectively) were close to the threshold value of 1.0. Fig. 4B shows that none of the sites were indicated as at risk for the taxonomic group of algae, with the highest RQs at Site3 and Site6 ranging between 0.70 and 0.87 as well as 0.60 and 0.76, respectively. Similarly, the taxonomic group of aquatic invertebrates was not categorised at risk at any of the sampling sites with RQs between *<*0.01 and 0.11 (HS1), *<*0.01 and 0.14 (HS2) as well as 0.03 and 0.42 (HS3). Independent of the hazard scenario used, fish were indicated as a taxonomic group at risk at Site3 (RQs: 1.01 to 2.13) and Site6 (RQs: 1.38 to 2.02). Furthermore, the RQs for Site4 and Site5 exceeded the risk threshold or were close to it (1.09 and 0.89, respectively), when HS3 was applied.
+
+# *3.4. Actual mixture risk drivers*
+
+To identify actual mixture risk drivers (i.e., compounds with an RQi
+
+≥ 0.02 at any of the sites), we combined ES1 (non-detects set to zero) with HS3 (empirical toxicity data amended with *in silico* predictions from TRIDENT) and used the MST approach. The choice of HS3 as the most relevant hazard scenario for risk driver identification was made based on the fact that the TRIDENT model showed higher accuracy in predicting chronic toxicity for all taxonomic groups (Fig. S4) compared to ECOSAR and is further elaborated in the discussion section.
+
+We identified 21 compounds as actual mixture risk drivers (Fig. 5, Table S3). These comprised 15 pharmaceuticals of various classes such as veterinary pharmaceuticals (ivermectin B1a), antibiotics (clarithromycin), anti-depressants/anxiolytics and antiepileptics (amitriptyline, citalopram, carbamazepine, temazepam, lamotrigine), diuretics (hydrochlorothiazide, furosemide), drugs targeting the cardio-vascular system (bezafibrate, metoprolol) as well as anaesthetics/analgesics and anti-inflammatory drugs (diclofenac, lidocaine, N-formyl-4aminoantipyrine). The remaining six compounds are biocides (fipronil and hexadecylpyridinium) and pesticides (flumioxazin, propiconazole, azoxystrobin, dimethachlor CGA369873 and 2 hydroxydesethylterbuthylazine).
+
+For 12 of the actual risk drivers, we obtained empirical chronic toxicity data from the ECOTOX database for at least one of the taxonomic groups and for six, we were able to acquire empirical data for all taxonomic groups. Eleven risk drivers were identified based on empirical data, as the most sensitive EC10-equivalent was retrieved from the ECOTOX database. Most of the identified compounds were, in particular, risk drivers for the taxonomic group of fish, followed by algae and aquatic invertebrates. The EC10-equivalents for fish ranged from 0.9•10- <sup>4</sup>µM (bezafibrate, ECOTOX) to 0.27 µM (lamotrigine, TRIDENT), for algae from 5.3•10-4 µM (clarithromycin, ECOTOX) to 1.13 µM (Nformyl-4-aminoantipyrine, TRIDENT), and for aquatic invertebrates
+
+
+
+**Fig. 5.** Illustration of the **actual** mixture risk drivers identified in the present study. The arithmetic mean risk quotient (RQ) of the compound is marked by the red vertical dash, and the whiskers indicate the minimum and maximum RQ. The colour of the tile adjacent to the compound name shows the compound class. The dots (empirical data from ECOTOX database) and diamonds (*in silico* prediction from TRIDENT), coloured depending on the taxonomic group, represent the most sensitive EC10-value used to calculate the RQs. The first column of pie charts specifies at which sampling site, the compound is identified as a risk driver (Site1, Site2, Site3, Site4, Site5, and Site6 on 1, 3, 5, 7, 9, and 11 o'clock, respectively). The second column of pie charts represents the presence and absence of empirical data for the three taxonomic groups, according to the same colour scheme as used for the EC10-values. Note: the x-axis is log-scaled and is representative of both the RQs and the EC10-values in µM. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+
+from 0.3•10-4 µM (ivermectin B1a, TRIDENT) to 3.1•10-3 µM (hexadecylpyridinium, TRIDENT).
+
+Of the total 21 actual risk drivers for the Holtemme River, 15 were identified at least at two sites, 11 in samples of at least three sites, 9 in samples of at least four sites, and five in samples from only one site.
+
+# *3.5. Potential mixture risk drivers*
+
+For the identification of potential mixture risk drivers, we obtained data from the combination of the exposure scenario ES1 (non-detects set to zero) with hazard scenario HS3b (empirical toxicity data amended with *in silico* predictions from TRIDENT that were divided by a factor of 100) in the MST approach. With this analysis, we identified a total of 66 compounds flagged as potential mixture risk drivers. The full list of compounds is enclosed in Table S4 in the supplementary materials. Here, the focus will be set on the top 25 risk-driving compounds.
+
+We identified 25 compounds from diverse compound classes (Fig. 6), such as pesticides, dyes, polymer additives, personal care and household products, as well as pharmaceuticals, representing the largest share. These comprise an antiepileptic (lamotrigine), anaesthetics and
+
+
+
+**Fig. 6.** Illustration of the **potential** mixture risk drivers identified in the present study with a mean risk quotient (RQ) *>* 0.10. The mean RQ of the compound is marked by the red vertical dash, the whiskers indicate the minimum and maximum RQ. The colour of the tile adjacent to the compound name shows the compound class. The diamonds (*in silico* prediction from TRIDENT), coloured depending on the taxonomic group, represent the most sensitive EC10-value used to calculate the RQs. The column of pie charts specifies at which sampling site, the compound is identified as a risk driver (Site1, Site2, Site3, Site4, Site5, and Site6 on 1, 3, 5, 7, 9, and 11 o'clock, respectively). Note: the x-axis is log-scaled and is representative of both the RQs and the EC10-values in µM. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+
+analgesics (lidocaine, N-formyl-4-aminoantipyrine, tramadol, ketamine, 4-aminoantipyrine), antihypertensives (telmisartan, bisoprolol), an antipsychotic (pipamperone), an anti-androgen (bicalutamide), diuretics (torasemide, furosemide), and an antidiabetic (metformin). All of the most sensitive EC10-equivalents used for this risk scenario were provided by TRIDENT data. Most of the identified potential mixture risk drivers (11) were compounds exhibiting the lowest EC10 for fish, followed by algae (9) and aquatic invertebrates (5). The values for fish ranged from 3.5•10-4 µM (lidocaine) to 7.2•10-2 M (5-methyl-1H-benzotriazole), for algae from 1.2•10-4 µM (trifloxystrobin NOA413161) to 0.14 µM (2-benzothiazolesulfonic acid) and for aquatic invertebrates from 2.6•10-4 µM (bicalutamide) to 3.6•10-2 µM (phenylbenzimidazole sulfonic acid).
+
+Six of the potential risk-driving compounds have already been identified as actual risk drivers in the present study (lamotrigine, lidocaine, N-formyl-4-aminoantipyrine, 2-hydroxydesethylterbuthylazine, dimethachlor CGA369873, furosemide). This is attributed to the fact that these compounds were identified as potential mixture risk drivers for at least one additional site as compared to the actual mixture risk driver assessment. Please note that a compound cannot be identified as both an actual and potential risk driver at the same sampling site. However, if a compound identified as an actual risk driver at one site is later also identified as a potential risk driver at another site, it will still be flagged accordingly. In total, 20 of the top 25 potential risk drivers for the Holtemme River were posing a risk at a minimum of two sites, 18 were identified in the samples from at least three sites, 16 at four sites and two compounds exceeded the threshold at five sites.
+
+# **4. Discussion**
+
+We conducted a longitudinal chronic MRA of a river using state-ofthe-art large-volume water sampling techniques, LC-HRMS, and nextgeneration AI-based ecotoxicity modelling. To the best of our knowledge, this is the first use of deep learning architectures in chronic MRA combined with a real-world case study scenario. As discussed below, we identified hotspots of chemical contamination, highlighting priority sites for further investigation and/or risk mitigation. In addition, we identified fish as a particularly vulnerable taxonomic group and we highlighted the mixture risk drivers.
+
+# *4.1. Exposure situation* – *complex mixtures of organic contaminants*
+
+The concentration and number of organic contaminants increased in the direction of the river flow and showed a clear pollution gradient, i.e. an increase in anthropogenic influence on the Holtemme River. Especially, the samples taken from downstream of the two WWTPs Silstedt and Halberstadt show that WWTPs are the main pathways for the introduction of complex chemical mixtures into the aquatic environment ([Altenburger et al., 2019; Wolfram et al., 2021](#page-10-0)), each showing distinct pollution patterns [\(Fig. 2](#page-4-0)A). The substances with the highest concentrations were compounds which are regularly found in surface waters ([Finckh et al., 2024](#page-10-0)) but also compounds that are rather river basin specific such as the three compounds 7-diethylamino-4-methylcoumarin and its transformation products 7-ethylamino-4-methylcoumarin and 7-amino-4-methylcoumarin [\(Muschket et al., 2021, 2018;](#page-11-0)  [Weitere et al., 2021](#page-11-0)). In general, the concentration levels found are comparable to those of previous studies from the Holtemme River ([Inostroza et al., 2017; Muschket et al., 2021; Svara](#page-10-0) ˇ et al., 2021; Tousova [et al., 2017; Weitere et al., 2021](#page-10-0)) as well as to those of other European ([Finckh et al., 2024, 2022; Loos et al., 2013](#page-10-0)) and non-European rivers ([Carpenter and Helbling, 2018; Kandie et al., 2020\)](#page-10-0) that are influenced by anthropogenic sources, specifically WWTPs. Therefore, the results of the present study are of great importance as the findings are transferable to other surface water bodies and imply potential risks to environmental health status elsewhere.
+
+# *4.2. Hazard quantification* – *chronic ecotoxicity data*
+
+Even though we have the technical capabilities and capacities to analyse numerous contaminants in environmental samples, we are still confronted with a lack of empirical data on the toxicity of those contaminants, especially when chronic toxicity is taken into account. This gap may be bridged by using QSAR approaches, which is also pointed out in guidance documents and reports on risk assessment of the European Chemicals Agency and the US EPA ([European Chemicals Agency,](#page-10-0)  [2020, European Chemicals Agency, 2008; US EPA, 1998\)](#page-10-0), but there is concern in the scientific community that the scarcity of empirical data and the unreliability of QSAR prediction (e.g., domain of applicability, data scarcity and limited model validation) hinders a solid MRA ([Gustavsson et al., 2023\)](#page-10-0). Additionally, regulatory advisors recommend to not solely rely on QSARs for deriving environmental quality standards as they tend to underestimate toxicity (European [Commission, 2018;](#page-10-0)  [Mark et al., 2008](#page-10-0)). Therefore, the generation of empirical data, as well as the development of new *in silico* methods, are indispensable [\(Gustavsson](#page-10-0)  [et al., 2024,](#page-10-0) 2023).
+
+The ECOTOX database, one of the most comprehensive databases on ecotoxicological data, holds information on approx. 12,000 chemicals in more than 13,000 species, yielding over 1.1 Mio results ([Olker et al.,](#page-11-0)  [2022\)](#page-11-0). Nonetheless, data on chronic toxicity is still scarce as we were only able to obtain data on 32.8 % of the compounds quantified above the MDL for at least one of the taxonomic groups and only for 33 compounds (i.e. 17.2 %) for all taxonomic groups of interest [\(Table 3](#page-4-0), Fig. S1). To fill in the missing effect data, we derived values from *in silico*  predictions (i.e. ECOSAR and TRIDENT) and were able to gather modelled ecotoxicological data for nearly all target substances. ECOSAR failed to predict toxicity data for eight compounds (amiodarone, DINCH, hexadecylpyridinium, montelukast, orlistat, salinomycin, telmisartan, tris(2-ethylhexl)phosphate) with predicted log *K*OW values between 8.19 and 9.52, and one additional compound (vancomycin) with a molecular weight of 1449 g/mol since these compounds fell outside of the domain of applicability. When comparing the correlation between empirical and *in silico* data derived by ECOSAR and TRIDENT, it was demonstrated that the predictions by the TRIDENT model showed higher correlation coefficients for all taxonomic groups of interest (Fig. S4). Interestingly, for fish, the correlation between ECOSAR and ECOTOX data was indicated as non-significant (α = 0.05) while TRIDENT to ECOTOX showed a highly significant correlation (Spearman's correlation coefficient R = 0.67). Consequently, we concluded that the TRIDENT predictions more accurately line up with available empirical data and thus that TRIDENT predictions outperform ECOSAR. This is in agreement with the results of [Gustavsson et al. \(2024\),](#page-10-0) specifically with respect to the prediction of chronic toxicity. Hence, we decided to use the hazard scenario HS3 (i.e. ECOTOX data amended by TRIDENT data) and HS3b (i.e. ECOTOX data amended by TRIDENT data divided by 100) as the most representative for the calculation of RQ sums (combined with ES3) and the identification of actual and potential mixture toxicity risk drivers (combined with ES1).
+
+Furthermore, it is to be noted that the use of HS2 and HS4 generally resulted in lower RQ sums compared to HS3 and HS5, thereby suggesting that ECOSAR may systematically predict lower toxicity in contrast to TRIDENT. A similar observation can be made when comparing HS4 and HS5 to HS1, the resulting lower RQs in HS4 and HS5 observed, indicate that both *in silico* tools tend to underestimate toxicity, particularly for lower EC10-equivalents (Fig. S4), thereby increasing the uncertainty in risk assessment. To address this, the additional application of a hazard scenario (HS3b) with shrunken EC10 values (division by a factor of 100) provides a range of uncertainty, with the true risk likely falling between the RQs calculated using HS1 and HS3b, which may span multiple orders of magnitude (cf. HS1 and HS3b at Site3, Fig. S2). Applying a divisor of 100 to *in silico* EC10 values accounts for prediction uncertainty of up to two orders of magnitude. The TRIDENT predictions deviated by less than this threshold in 83.5, 93.5 and 97.9 % of the cases for fish, aquatic invertebrates and algae, respectively. For ECOSAR, predictions deviated within two orders of magnitude in 65.7, 82.9 and 83.9 % of the cases for fish, aquatic invertebrates and algae, respectively. (Fig. S4). This suggests that even though TRIDENT provided more reliable estimates for chronic toxicity, uncertainty remains which emphasises the need for careful interpretation of *in silico* predictions in MRA.
+
+## *4.3. Mixture risk assessment*
+
+The systematic analysis and evaluation of 27 possible risk scenario combinations with three distinctive taxonomic groups from different trophic levels, as well as the MST approach, resulted in a detailed MRA for the Holtemme River. We identified four sites at risk (i.e., an RQ sum ≥1.0, depending on the risk scenario). Even with the use of the least protective approach (non-detects set to zero and only empirical data used) the two sites downstream of the two WWTPs Silstedt and Halberstadt (Site3 and Site6) were flagged as being at risk, exceeding the RQ threshold by a factor of 1.73 and 2.04, respectively. This analysis assumes implicitly that neither other compounds (e.g., organic chemicals not included in the target list or metals) nor that those compounds lacking empirical data add to the toxicity of the sample. Even though CA might overestimate the risk of a given mixture slightly ([Backhaus and](#page-10-0)  [Faust, 2012](#page-10-0)), this is likely not sufficient to account for the risk contribution of mixture components not accounted for during the assessment. This is particularly evident with regard to the empirical data scarcity of pharmaceuticals ([Oelkers and Floeter, 2019; Spilsbury et al., 2024\)](#page-11-0), as these active substances are designed to interact with human proteins and drug-target orthologues are evolutionarily conserved among various taxa [\(Gunnarsson et al., 2019](#page-10-0)). Consequently, and in connection with what was discussed above, we consider amending empirical data with *in silico* predictions a "more realistic" hazard scenario (HS3). This shows that all sites downstream of the first WWTP were exceeding the RQ threshold of 1 (Site3: 2.93, Site4: 1.61, Site5: 1.28, Site6: 2.77).
+
+We applied a new approach in our assessment, as outlined in [Inos](#page-10-0)[troza et al. \(2024\)](#page-10-0), to determine various types of mixture risk drivers. The analysis showed that most of the actual and potential mixture risk drivers are pharmaceuticals. These pharmaceuticals are known to exhibit various target and non-target modes of action. While some are connected to antibiotic or anti-inflammatory properties, the largest set of the pharmaceuticals flagged as risk drivers are known neuroactive and cardio-vascular regulating substances ([Kramer et al., 2024](#page-11-0)), such as amitriptyline, citalopram, temazepam, lamotrigine and hydrochlorothiazide as well as metoprolol. Furthermore, endocrine disrupting chemicals (EDCs) were found to be relevant mixture risk drivers, here specifically the known anti-androgenic dyes 7-ethylamino, 7-amino- and 7-diethylamino-4-methylcoumarin ([Muschket et al., 2018\)](#page-11-0) and bicalutamide [\(Kramer et al., 2024\)](#page-11-0) were highlighted in our analysis. Interestingly, the anti-androgenic character was also quantified for the respective samples from Site3, Site4, Site5 and Site6, using a reporter gene assay ([Weichert et al., 2024a](#page-11-0)).
+
+Besides pharmaceuticals, pesticides are often described as important mixture risk drivers ([Beckers et al., 2018; Malaj et al., 2014](#page-10-0)). The assessment in the present study showed that pesticides are the secondlargest compound class among the risk drivers. In total, five parent compounds and eight transformation products were identified, which may be explained by the date of sampling. The timing of sampling during the end of October may introduce a degree of bias, as peak exposure events (such as the field application or spills of pesticides) cannot be accurately captured. However, the sampling method employed in the present study exemplifies an improvement in the ability to obtain a more chronic exposure representation, which is not feasible with grab sampling or the extraction of small volumes of surface water. Additionally, the seasonal timing of the study likely explains the predominant identification of transformation products rather than parent compounds of pesticides.
+
+The seasonal aspect of the sampling is also likely to be responsible for why we identified fish as the most sensitive taxonomic groups. It has been shown that fish are more likely to be affected by chronic exposure, whereas algae and crustaceans are more likely to be affected by peak exposure and seasonal exposure [\(Beckers et al., 2018\)](#page-10-0). This also follows the same pattern of evidence where we found pharmaceuticals to be the main drivers of toxicity, as known drug targets in humans have orthologues in fish ([Gunnarsson et al., 2019](#page-10-0)).
+
+# **5. Conclusion and perspective**
+
+We demonstrated an approach for an extensive AI-aided MRA, using a real-world case study scenario which opens new opportunities for future risk assessment strategies. Even though a component-based risk assessment, as presented in this study, is potentially drawn to overestimation of risk ([Backhaus and Faust, 2012](#page-10-0)), our analyses using multiple exposure and hazard scenarios strongly suggest that chronic risk to aquatic organisms posed by exemplary environmental exposure scenarios tend to be rather underestimated with traditional risk assessment approaches. Moreover, we were able to identify pharmaceuticals as the most important risk-contributing chemical class, and fish to be the most sensitive taxonomic group, likely to be affected by chronic exposure during periods in which pesticide applications are low. Though we were able to obtain empirical ecotoxicological data on most of the identified mixture risk drivers for at least one of the taxonomic groups, the *in silico*  predictions used in this study were particularly relevant for the evaluation of the entirety of the mixtures and thus the identification of hotspots of pollution. This is of great importance to minimise the uncertainties connected to the lack of empirical (eco)toxicological data. Consequently, we strongly encourage the use of deep learning architectures, and multi-scenario approaches to consider uncertainties in risk assessment as well as the calculation of various types of risk drivers as established in the present study in future MRA.
+
+Thus far the environmental impact following chronic exposure to multiple chemical stressors is largely unknown and the true risk is challenging to assess without the application of effect-oriented *in situ*  studies [\(Altenburger et al., 2019; Backhaus et al., 2019](#page-10-0)). Therefore, we see great potential in future field experiments, combining a comprehensive MRA and involving experimental setups (e.g. with fish) to confirm or refute the genuine environmental impact of complex chemical mixtures.
+
+Finally, we would like to recommend the use of the workflow established in this study to improve the robustness of AI-aided MRA. In brief, the following key aspects should be addressed. As substances present below the MDL may still contribute to ecological risks, it is essential to develop strategies for estimating their impact, e.g., through the use of appropriate statistical methods for censored data. Whenever possible, the use of empirical chronic toxicity data should be prioritised over the use of *in silico* predictions and appropriate factors for conversion to chronic EC10-equivalents should be applied to ensure comparability of the toxicity metrics used. In cases where empirical data are unavailable, the TRIDENT model may be used as the preferred *in silico*  tool, as it has been demonstrated to reliably predict chronic toxicity, outperforming traditional QSARs. Additionally, it is essential to report sources of uncertainty (e.g., the use of conversion factors, the relationship between the MDL and EC10 values, deviation of *in silico* data compared to empirical data, as well as the handling of censored data) and to integrate potential uncertainty metrics into MRA approaches to enhance transparency and thus facilitate subsequent decision-making processes.
+
+# **CRediT authorship contribution statement**
+
+**Fabian G. Weichert:** Writing – review & editing, Writing – original draft, Visualization, Validation, Software, Methodology, Investigation, Funding acquisition, Formal analysis, Data curation, Conceptualization.
+
+<span id="page-10-0"></span>**Pedro A. Inostroza:** Writing – review & editing, Writing – original draft, Visualization, Validation, Supervision, Software, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. **Jorg** ¨ **Ahlheim:** Writing – review & editing, Methodology, Conceptualization. **Thomas Backhaus:** Writing – review & editing, Validation, Software, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. **Werner Brack:** Writing – review & editing, Conceptualization. **Mario Brauns:** Writing – review & editing, Conceptualization. **Patrick Fink:** Writing – review & editing, Conceptualization. **Martin Krauss:** Writing – review & editing, Investigation, Formal analysis, Data curation. **Patrik Svedberg:** Writing – review & editing, Validation, Software, Methodology, Investigation, Formal analysis, Data curation. **Henner Hollert:** Writing – review & editing, Supervision, Funding acquisition, Conceptualization.
+
+# **Funding**
+
+This work received funding from the RobustNature Cluster of Excellence Initiative provided by the Goethe University Frankfurt, Germany.
+
+# **Declaration of competing interest**
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+# **Acknowledgments**
+
+We would like to extent our gratitude to Jakob Pfefferle and Margit Petre for invaluable support with the fieldwork, LVSPE set-up and extract preparation. The QExactive Plus LC-HRMS used at UFZ, Germany is part of the major infrastructure initiative CITEPro (Chemicals in the Terrestrial Environment Profiler) funded by the Helmholtz Association. In addition, we would like to acknowledge the extensive work of four anonymous reviewers, who contributed to a significant improvement of the manuscript.
+

@@ -1,0 +1,294 @@
+
+
+Contents lists available at [ScienceDirect](www.sciencedirect.com/science/journal/01604120)
+
+# Environment International
+
+
+
+journal homepage: [www.elsevier.com/locate/envint](https://www.elsevier.com/locate/envint)
+
+Full length article
+
+# Nationwide prediction of pesticide residual levels in soil: Implications on the resulting risk and prioritization framework
+
+Bin Zhang a,b,1 , Hongyu Mu c,d,1 , Hua Li <sup>e</sup> , Xianghua Zhang <sup>f</sup> , Guang Yang a,g , Wenxiu Chen a,b , Yan Yan a,g , Wei An a,b,\* , Min Yang a,b,\*
+
+<sup>a</sup> *National Engineering Research Center of Industrial Wastewater Detoxication and Resource Recovery, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China*
+
+<sup>b</sup> *College of Resources and Environment, University of Chinese Academy of Sciences, Beijing, China 100190*
+
+<sup>c</sup> *Soil Physics and Land Management Group, Wageningen University & Research, 6700 AA Wageningen, The Netherlands*
+
+<sup>d</sup> *College of Resources and Environmental Sciences; National Academy of Agriculture Green Development, Key Laboratory of Plant-Soil Interactions of Ministry of* 
+
+*Education, National Observation and Research Station of Agriculture Green Development (Quzhou, Hebei), China Agricultural University, Beijing, China 100193*
+
+<sup>e</sup> *College of Plant Science and Technology, Beijing University of Agriculture, Beijing, China 102206*
+
+<sup>f</sup> *School of Economics and Management, Northeast Forestry University, Harbin, China 150040*
+
+<sup>g</sup> *State Key Laboratory of Urban and Regional Ecology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing, China 100085*
+
+ARTICLE INFO
+
+*Keywords:* Pesticide residue Soil Ecological risk Concentrations Soil biota
+
+# ABSTRACT
+
+Pesticides are widely accumulated in agricultural soils in China under successive applications, causing negative impacts on non-target species and environmental qualities. However, a nationwide overview of the residual levels of pesticides in soil, and the ecological risks to non-target soil species are lacking. In this study, we calculated geographically gridded concentrations of 107 pesticide active ingredients (AIs) in soils in China based on the Computational Pesticide Input (CPI) model and further assessed the ecological risks to soil biota. In the end, we proposed an integrated usage-impact model to identify prioritize control pesticides based on the usage, risk and persistence of pesticides. Pesticide concentrations were calculated in a range from 0.01 mg kg<sup>−</sup> 1 to over 185 mg kg<sup>−</sup> <sup>1</sup> . Glyphosate is the most prevalent pesticide that exists in most locations. The ecological risks were mostly assessed as medium risk, with extreme high- and high risk found in 1 % and 21 % of soils. Supervision and management of azoxystrbin, boscalid, butachlor and chlorpyrifos need to be prioritized. The results of this study provide guidance to local governments for the designation more accurate risk mitigation strategies across regions.
+
+#### **1. Introduction**
+
+The intensive use of pesticides worldwide has been crucial in preventing yield loss and securing crop production ([Aktar et al., 2009; Tang](#page-6-0)  [et al., 2021](#page-6-0)). With a rapidly growing population, pesticide use in China has increased steadily over the past decades, peaking at over 1.8 million tons in 2012 [\(National Bureau of Statistics, 2022\)](#page-6-0). While these chemicals have significantly contributed to food security, their continuous application has led to widespread contamination of agricultural soils ([Yang,](#page-6-0)  [2022; Sun et al., 2018; Brühl, 2024\)](#page-6-0). Pesticides are toxic to non-target organisms, including beneficial species essential for nutrient recycling and maintaining soil functions ([Silva, 2023; Hennig et al., 2023; Kumar,](#page-6-0)  [2023\)](#page-6-0). Their accumulation and biomagnification elevate exposure risks, potentially causing population declines and reduced biodiversity in local ecosystems ([Rumschlag, 2020; Stuligross and Williams, 2021\)](#page-6-0). Therefore, screening the ecological risks of pesticide residues in soil is vital for developing regional risk mitigation strategies.
+
+The European Food Safety Authority (EFSA) recommends various methods for assessing the ecological risks of pesticides to soil biota, such as toxicity exposure ratios (TERs) and risk quotients (RQs) ([E. P. o. P. P.](#page-6-0)  [Products, 2017\)](#page-6-0). These methods evaluate the risks posed by single pesticides and their mixtures. Risk assessments require data on pesticide concentrations in soil and ecotoxicity information for indicator species like *Eisenia fetida, Enchytraeus crypticus, Folsomia candida, Hypoaspis aculifer*, and nitrogen mineralization organisms. The TER approach calculates species-specific risks of single pesticides, with trigger values of 10 for chronic exposure and 5 for acute exposure, helping to identify high-risk pesticides. However, in agricultural soils, pesticides often
+
+<https://doi.org/10.1016/j.envint.2025.109355>
+
+Received 29 July 2024; Received in revised form 19 January 2025; Accepted 27 February 2025 Available online 1 March 2025
+
+0160-4120/© 2025 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license [\(http://creativecommons.org/licenses/by/4.0/\)](http://creativecommons.org/licenses/by/4.0/).
+
+<sup>\*</sup> Corresponding authors.
+
+<sup>1</sup> These authors contributed equally to this work.
+
+occur as mixtures, creating combined toxic effects on non-target species. To address this, the RQ-based approach assesses the ecological risk of pesticide-contaminated sites, assuming no synergistic or additive effects between pesticide combinations [\(Mu, 2023; Jiang, 2023\)](#page-6-0). This method offers a broader perspective on the potential impacts of multiple pesticides on soil biota. Currently, the ecological risks of pesticide residues in soil are evaluated by monitoring pesticide levels at various locations in China. However, there is a need for a nationwide risk map to improve regional pesticide management and overall risk assessments. Based on a nationwide overview, priority control list of pesticides can be provided for more accurate risk mitigation and management strategies.
+
+To address these research gaps, we used the geographically gridded input datasets of 107 pesticide active ingredients (AIs) derived from Computational Pesticide Input (CPI) model to predict pesticide concentrations in agricultural soils. Furthermore, we assessed the ecological risks of pesticides to soil biota and identified the risk contributors. In the end, we proposed a pesticide prioritization framework that integrates the persistence, input, and resulting ecological risks of pesticides to identify priority control pesticides (Fig. S1 in the Supplementary Data 3). This work had the following characteristics: 1) generating national concentration datasets of commonly used pesticides in agricultural soils at high resolution, 2) innovatively providing nationwide eco-risk maps and prioritization framework of pesticides by integrating their input, residual levels in soil, and ecotoxicities. This work provides a nationwide overview of the residual levels of AIs in agricultural soils and the resulting eco-risk to non-target soil species, facilitating regional pesticide supervision practices towards major risk contributors. The pesticide prioritization framework enables policymakers to implement more accurate pesticide management strategies for risk mitigation and the development of sustainable plant protection systems.
+
+#### **2. Materials and methods**
+
+### *2.1. The CPI model*
+
+The CPI model presents provincial-level ratios of environmental input of 107 pesticide active ingredients (AIs) in major farming systems in China and further provided georeferenced pesticide input maps at 5 arcmin resolution. The model was developed based on pesticide application and sales data derived from nationwide farmer interview and technical reports [\(Zhang, 2015; Zhongtai securities, 2020](#page-6-0)). Briefly, datasets of the application rates were built for wheat, maize, rice, and non-staple crops, respectively. Sequentially, the pesticide application data was normalized and ratios between the annual input of 107 AIs for each province were obtained through quantile regression (negative exponential function) with 70 % and 30 % of the crop-specific data randomly allocated into training and validation sets. After examining the stability of model fitting through bootstrap procedure, overall fitting was performed to obtain the crop-specific pesticide input ratios. To evaluate the uncertainties of the CPI models, bootstrap procedures were conducted 2000 times for crop-specific training sets, showing that uncertainties might occur when applying the model to different provinces. Therefore, model calibration was carried out to minimize the errors between predicted aggregated pesticide input at provincial level and statistics by multi-object optimization. In the end, the geographically gridded input maps of each AI were presented by integrating the CPI outputs (calibrated crop-specific pesticide input ratios at provincial level) with the geospatial information of farming systems. Meanwhile, the application rates of AIs in cell grids can be calculated as the ratio of annual input and harvested area (equation (1). Based on the CPI model, georeferenced pesticide input datasets were obtained for concentration prediction (supplementary material).
+
+$$\text{Rate}\_{p,l} = \frac{\text{Annualinput}\_{p,l}}{\text{HA}\_l} \tag{1}$$
+
+where *i* represents the farming system, including wheat, maize, rice and non-staple crops. *p* represents a certain AI used for *i* crop. *Rate* refers to the application rate (g m<sup>−</sup> <sup>2</sup> ). *HA* (m2 ) represents the harvested area of the farming system *i*. Detailed descriptions and datasets related to model development can be found in the supplementary materials.
+
+#### *2.2. Concentration prediction*
+
+The Predicted Environmental Concentrations (PECs) of pesticides in soil were calculated based on the approach from Environmental Potential Risk Indicator for Pesticide version 2.1 (EPRIP 2.1) ([EFSA, xxxx](#page-6-0)). The calculations of PECs were performed by assuming that all pesticides were applied once a year at their annual application rates (*Ratep,I*) derived from the CPI model. Given that the historical usage and concentrations of pesticides are largely unknown, this study provides the non-cumulative PECs caused by a single pesticide application event. The calculations of PECs were performed based on the application rates (*Rate*, g m<sup>−</sup> <sup>2</sup> ), plant interception (*fint*, %), soil depth (*DEPTH*, cm), and soil bulk density (*BD*, g cm<sup>−</sup> <sup>3</sup> ) as follows (equation (2). Limit of qualification (LOQ) were set for pesticides at 5 μg kg<sup>−</sup> 1 that PECs with the value lower than the LOQ were excluded from further statistical analysis and risk assessment. Given that fine soil particles at surface layer (0–2 cm) can easily transported into atmosphere driven by wind erosion ([Silva, 2018\)](#page-6-0), the soil depth was set as 2 cm in concentration predictions.
+
+$$\text{PEC} = \frac{\text{Rate} \times (1 - f\_{\text{tot}})}{100 \times \text{DEPTH} \times \text{BD}} \tag{2}$$
+
+#### *2.3. Ecological risk assessment*
+
+### *2.3.1. Exposure risk by single pesticide ingredient*
+
+The TER-based approach aims to assess the species-specific exposure risk of a single pesticide to soil biota [\(E. P. o. P. P. Products, 2017](#page-6-0)). For the assessment, *Eisenia fetida, Enchytraeus crypticus, Folsomia candida, Hypoaspis aculifer*, and nitrogen mineralization organisms were selected as indicator species. As shown in equation (3), the calculation of TERs performed based on the species-specific ecotoxicity endpoints including the predicted no effect concentration (NOEC) and half lethal concentrations (LC50). In the assessment, the maximum values of PECs were used to assess the exposure risk in a most conservative way.
+
+$$TER\_{\text{species}} = \frac{\text{NOEC}\_{\text{species}} \text{orLC50}\_{\text{species}}}{\text{PEC}\_{\text{max}}} \tag{3}$$
+
+# *2.3.2. Ecological risks posed by pesticide mixtures*
+
+RQ-based approach was used in this study to evaluate the ecological risk of pesticide mixtures to determine if the residual level of pesticides had negative impacts to soil biota. The ecological risks of studied locations (ΣRQsite) were calculated as the sum of RQs for single AI, following a concentration-addition (CA) approach (equation [\(4\) and \(5\)](#page-2-0). As described in equation [\(4\)](#page-2-0), the calculation of single AI was carried out based on the species-specific ecotoxicity endpoints, the predicted no effect concentration of the most susceptible species among the indicative soil biota (PNECmss), and the assessment factor (AF). The calculation of PNECmss was performed based on the NOEC or LC50 of the most sensitive species and the AF (equation [\(6\)](#page-2-0)). The AF can be assigned as 10, 50, 100, or 1000, depending on the availability of acute or chronic exposure parameters, such as LC50, EC50 (half maximal effect concentration, μg kg<sup>−</sup> <sup>1</sup> ), and NOEC. Briefly, 1) the AF can be set as 1000 if there is at least one species-specific LC50 available; 2) the AF can be set as 100 if there is at least one chronic assay (NOEC) available, and 3) the value of AF is 50 or 10 if 2, 3, or more NOECs are available, respectively. The ecotoxicity endpoints (derived from Pesticide Properties DataBase, PPDB) and AFs were presented in the supplementary materials ([Lewis and Green, 2011\)](#page-6-0) (Table S1 in the Supplementary Data 3).
+
+$$\text{RQ}\_p = \text{PEC}\_p / \text{PNEC}\_{\text{rms}} \tag{4}$$
+
+$$\sum RQ\_{\text{slie}} = \sum RQ\_{\Phi} = \sum\_{p=1}^{n} \frac{PEC\_p}{\text{PNEC}\_p} \tag{5}$$
+
+$$\text{PNEC}\_{\text{mau}} = \text{NOEC}\_{\text{ma}} \text{or} \text{LC50}\_{\text{ma}} / \text{AF} \tag{6}$$
+
+A hierarchical approach from a decision-support system related to Pesticide Use Risk Evaluation (PURE) was applied for risk classification by calculating the lognormal transformed value of *ΣRQsite* as Risk Points (RPs) (equation (7)([Zhan and Zhang, 2012\)](#page-6-0). Based on the RPs, the ecological risk was classified into 5 levels: extremely high risk (RP ≥ 2); high risk (1 ≤ RP *<* 2); medium risk (0 ≤ RP *<* 1); low risk (-1 ≤ RP *<* 0) and negligible risk (RP*<*-1).
+
+$$RP = \log \sum RQ\_{\text{due}} \tag{7}$$
+
+#### *2.4. The integrated usage-impact model for pesticide prioritization*
+
+In this study, we developed an integrated usage-impact model to categorize pesticides based on the usage, persistence of pesticides and the resulting risks and further identify prioritize control pesticides. The Stockholm Convention regulated that pollutants with a half-life longer than 180 days were recognized as persistent chemicals [\(Lallas, 2001](#page-6-0)). Furthermore, this study calculated the median of national masses of pesticide input and RQ were 10 kt and 708, respectively. Thereby, pesticides were firstly categorized into four classes: 1) priority control pesticides that persistent pesticides with an input less than 10 kt but posed high eco-risk, 2) focused attention pesticides that pesticides with an input larger than 10 kt and posed high eco-risk, 3) candidate pesticides, referring to pesticides with less input and less eco-risks, and 4) non-regulatory pesticides that the ones have been largely used while posed minor ecological risks. The second step calculated the Pesticide-Induced Risk Efficiency (PIRE) as the ratio of the sum of RQ of certain AI and the corresponding input to further identify pesticides potentially need to be prioritized for supervision and management (equation (8)). The calculation of PIREp was summarized in the supplementary materials (Table S2 in the Supplementary Data 3). In the end, a priority control list of pesticides was obtained by integrating the results of pesticide categorization and PIRE calculation.
+
+$$PIRE\_p = \frac{RQ\_p}{\text{Annual input}\_p} \tag{8}$$
+
+#### **3. Results and discussion**
+
+#### *3.1. Pecs of pesticides in soil*
+
+PECs of 107 AIs, including 21 fungicides, 25 herbicides and 44 insecticides, were calculated based on the georeferenced pesticide input data, soil and pesticide properties. The concentrations were widely distributed, ranging from below 10 μg kg<sup>−</sup> 1 to 185 μg kg<sup>−</sup> <sup>1</sup> , with the highest concentration found for glyphosate, followed by 2,4-D butylate and atrazine (Table 1). Glyphosate was also the most existing pesticide that presented at over 98 % of the locations. Meanwhile, acetochlor, atrazine, mancozeb, and metolachlor were found to be widely existed in surface soil with the detection rates exceeding 80 %.
+
+Pesticides have been widely presented in agricultural soils under repeated applications. This study found that herbicides, including glyphosate, acetochlor, atrazine, metolachlor, and fungicide mancozeb were the most presented compositions at 0–2 cm layer of soils. For pesticide-specific concentration comparisons, we found much higher average and maximum concentrations were shown in the measured concentrations than model predictions (Table S3 in the Supplementary Data 3), except atrazine and chlorpyrifos. The total concentration of AIs from this work was ranged from 25 to 475μg kg<sup>−</sup> 1 in the TGRA with
+
+<span id="page-2-0"></span>
+
+| B. Zhang et al. | Environment International 197 (2025) 109355 |
+|-----------------|---------------------------------------------|
+|-----------------|---------------------------------------------|
+
+**Table 1** 
+
+|  | PECs of pesticides in agricultural soils (μg kg− 1 |  | ). |
+|--|----------------------------------------------------|--|----|
+|  |                                                    |  |    |
+|  |                                                    |  |    |
+
+| Pesticides                                  | Maximum concentrations | Median concentrations |
+|---------------------------------------------|------------------------|-----------------------|
+| Glyphosate                                  | 185.18                 | 93.43                 |
+| 2, 4-D butylate                             | 68.08                  | 32.55                 |
+| Atrazine                                    | 53.11                  | 27.82                 |
+| Bisultap                                    | 39.56                  | 0.30                  |
+| Paraquat                                    | 33.94                  | 6.08                  |
+| Mancozeb<br>Trifluralin                     | 33.51<br>26.85         | 16.10<br>1.39         |
+| Metolachlor                                 | 26.78                  | 12.59                 |
+| Chlorpyrifos                                | 23.10                  | 2.54                  |
+| Acetochlor                                  | 21.97                  | 12.59                 |
+| Propisochlor                                | 17.23                  | 0.96                  |
+| Butachlor                                   | 14.58                  | 0.79                  |
+| Bensulfuron-methyl<br>Thifensulfuron-methyl | 14.09<br>14.08         | <0.01<br><0.01        |
+| Pretilachlor                                | 14.08                  | <0.01                 |
+| Haloxyfop-P-methyl                          | 14.08                  | <0.01                 |
+| Pyrazosulfuron-ethyl                        | 14.08                  | <0.01                 |
+| Acephate                                    | 13.21                  | 1.81                  |
+| Jingangmycin                                | 10.38                  | <0.01                 |
+| Dichlorvos<br>Omethoate                     | 8.47<br>7.26           | <0.01<br>0.67         |
+| Alachlor                                    | 7.11                   | 0.37                  |
+| Imidacloprid                                | 6.27                   | 1.05                  |
+| Triazophos                                  | 5.62                   | <0.01                 |
+| Pendimethalin                               | 5.25                   | 2.47                  |
+| Bacillus thuringiensis                      | 5.18                   | <0.01                 |
+| Abamectin                                   | 4.91                   | 0.94                  |
+| Glufosinate-Ammonium<br>Phoxim              | 4.85<br>4.69           | 2.28<br>0.34          |
+| Profenofos                                  | 4.54                   | <0.01                 |
+| Acetamiprid                                 | 4.47                   | 1.01                  |
+| Clomazone                                   | 4.34                   | 2.04                  |
+| Fenvalerate                                 | 4.33                   | 0.64                  |
+| Heliothisarmigera NPV                       | 4.33                   | <0.01                 |
+| Mesotrione<br>Malathion                     | 4.32<br>4.30           | 2.73<br>0.55          |
+| Phorate                                     | 4.30                   | 0.29                  |
+| Beta-cypermethrin                           | 4.28                   | 1.12                  |
+| Carbendazim                                 | 4.27                   | 0.04                  |
+| Dicamba                                     | 4.27                   | 2.01                  |
+| Clethodim                                   | 4.26                   | 2.01                  |
+| Flumioxazin<br>Pinoxaden                    | 4.26<br>4.26           | 2.01<br>2.01          |
+| Deltamethrin                                | 4.26                   | 0.94                  |
+| Chlorothalonil                              | 4.26                   | 1.15                  |
+| Pymetrozine                                 | 4.26                   | <0.01                 |
+| Chlorantraniliprole                         | 4.25                   | 0.85                  |
+| Lambda-cyhalothrin                          | 4.25                   | 0.94<br><0.01         |
+| Metolcarb<br>Isoprocarb                     | 4.25<br>4.24           | 0.22                  |
+| Emamectin benzoate                          | 4.23                   | 0.22                  |
+| Pyridaben                                   | 4.23                   | 0.24                  |
+| Buprofezin                                  | 4.23                   | <0.01                 |
+| Cypermethrin                                | 4.23                   | 0.30                  |
+| Isoprothiolane<br>Beauveria                 | 4.23<br>4.23           | <0.01<br><0.01        |
+| Tebufenozide                                | 4.22                   | <0.01                 |
+| Hexaflumuron                                | 4.22                   | <0.01                 |
+| Tricyclazole                                | 4.22                   | <0.01                 |
+| Iprobenfos                                  | 4.22                   | <0.01                 |
+| Hymexazol                                   | 4.22                   | <0.01                 |
+| Carbofuran                                  | 4.22                   | <0.01                 |
+| Bismerthiazol<br>Chlorbenzuron              | 4.22<br>4.22           | <0.01<br><0.01        |
+| Isocarbophos                                | 4.22                   | <0.01                 |
+| Kasugamycin                                 | 4.22                   | <0.01                 |
+| Alpha-cypermethrin                          | 4.22                   | <0.01                 |
+| Streptomycin                                | 4.22                   | <0.01                 |
+| Hexaconazole                                | 4.22                   | <0.01                 |
+| Fenpropathrin<br>Prochloraz                 | 4.22<br>4.22           | 0.04<br><0.01         |
+| Famoxadone                                  | 4.22                   | <0.01                 |
+| Matrine                                     | 4.22                   | <0.01                 |
+| Methomyl                                    | 4.22                   | 0.22                  |
+
+(*continued on next page*)
+
+#### **Table 1** (*continued* )
+
+| Pesticides           | Maximum concentrations | Median concentrations |
+|----------------------|------------------------|-----------------------|
+| Nicosulfuron         | 3.43                   | 0.18                  |
+| Dimethoate           | 3.22                   | 0.30                  |
+| Tribenuron-methyl    | 2.40                   | <0.01                 |
+| Thiamethoxam         | 2.12                   | 1.00                  |
+| Tebuconazole         | 1.34                   | 0.63                  |
+| Azoxystrobin         | 1.32                   | 0.62                  |
+| Pyraclostrobin       | 1.29                   | 0.61                  |
+| Metalaxyl            | 1.28                   | 0.60                  |
+| Propiconazole        | 1.28                   | 0.60                  |
+| Clothianidin         | 1.28                   | 0.60                  |
+| Trifloxystrobin      | 1.28                   | 0.60                  |
+| Picoxystrobin        | 1.28                   | 0.60                  |
+| Boscalid             | 1.28                   | 0.60                  |
+| Cpoxiconazolc        | 1.28                   | 0.60                  |
+| Spinosad             | 1.28                   | 0.60                  |
+| Bifenthrin           | 1.28                   | 0.78                  |
+| Fipronil             | 1.28                   | 0.60                  |
+| Monosultap           | 1.16                   | 0.06                  |
+| Spodopteralitura NPV | 1.11                   | 0.06                  |
+| Diniconazole         | 1.06                   | 0.08                  |
+| Endosulfan           | 1.03                   | 0.05                  |
+| Spirodiclofen        | 1.03                   | 0.05                  |
+| Trichlorfon          | 1.03                   | 0.05                  |
+| Carbosulfan          | 1.03                   | 0.05                  |
+| Cyhalothrin          | 1.03                   | 0.08                  |
+| Dithioether          | 1.03                   | 0.05                  |
+| Fenpyroximate        | 1.03                   | 0.05                  |
+| Triadimefon          | 1.01                   | <0.01                 |
+| Thiram               | 0.33                   | <0.01                 |
+| Myclobutanil         | 0.19                   | <0.01                 |
+| 2, D-D-ethylhexyl    | 0.19                   | <0.01                 |
+| Clofentezine         | 0.19                   | <0.01                 |
+| Fluoroglycofen-ethyl | 0.19                   | <0.01                 |
+
+chlorpyrifos found to be one of the major pollutants in both model predictions and field monitoring results [\(Yang, 2022\)](#page-6-0). Similarly, chlorpyrifos was found to be one of the most prevalent AI in the agricultural soils of Zhejiang province, which is cross validated by our model outputs and a provincial monitoring study [\(Zuo, 2024\)](#page-6-0). Insecticides, such as imidacloprid and chlorpyrifos, were the most existed group of pesticides in the North China Plain, which is coherent with the regional monitoring study [\(Mu, 2023\)](#page-6-0). Despite the predicted major pollutants and their residual levels were generally aligned with a nationwide monitoring study ([Wang et al., 2023\)](#page-6-0), some historic used pesticides, such as organochlorine pesticides (OCPs) showed much higher concentrations than currently used pesticides and not yet included in our model assessments. The existence of historically used pesticides highlighted the need for continuous monitoring and prediction of these chemicals. It should be noted that, as the most presented pesticides with the highest concentrations in this study, glyphosate also frequently existed in agricultural in European soil [\(Silva, 2019](#page-6-0)). Under successive field applications, the accumulated glyphosate can induce multiple negative impacts to soil species, such as earthworms, at sub-individual, individual, population, and even community levels [\(Lima E Silva, 2024](#page-6-0)). Furthermore, the coexistence of glyphosate and microplastics might cause more severe synergistic effects to non-target species [\(Yu, 2021](#page-6-0)).
+
+Surface soil fine particles are highly susceptible to wind and water erosion, which can lead to the spread of attached pesticides into the atmosphere and surrounding water bodies ([Silva, 2018\)](#page-6-0). In this study, we found pesticides to be prevalent in surface layer soils, indicating a significant risk of their transport due to soil erosion. This suggests a need for further investigation into the mechanisms and extent of pesticide dispersal driven by wind and water erosion.
+
+#### *3.2. Ecological risks of pesticides in agricultural soils in China*
+
+Species-specific exposure risk of single pesticide to soil biota was assessed by TERs approach. Based on the assessment, chlorpyrifos and profenofos were perceived to pose harmful effects on earthworms, collembola, and N/P mineralization microorganisms (Table S4 in the Supplementary Data 3). Earthworms play an essential role in facilitating soil nutrient cycles and degradation of soil organic wastes, maintaining soil functions, and improving soil fertility, meanwhile highly susceptible to the exposure of pesticides in both long- and short terms [\(Denier, 2022;](#page-6-0)  [Al-Maliki et al., 2021; Chen et al., 2024](#page-6-0)). As largely distributed in temperate agro-systems, the abundance of collembola was found to be correlated with the nutrient cycling efficiency and crop productivity ([Joimel et al., 2022; Kuznetsova and Ivanova, 2020](#page-6-0)). As one of the widely used insecticides, chlorpyrifos are toxic to not only the indicative species selected for risk assessment, but also a broader range of animals. For instance, chlorpyrifos can be transformed to chlorpyrifos-oxon, which causes negative impact to nervous systems of non-target species through inhibiting acetylcholinesterase [\(Wexler and Anderson, 2005](#page-6-0)). Moreover, chlorpyrifos can directly induce cell deaths by releasing a large number of pro-apoptotic proteins ([Dai, 2015](#page-6-0)). Despite the risk assessment being performed in a most conservative way, the results of this study indicate potential negative impacts of pesticides on soil quality and soil–plant interactions.
+
+The cumulative RQs for each pesticide were listed in Table S2. RPbased risk assessment revealed widespread ecological risks of pesticide soil residues in China with only less than 1 % of locations existing negligible risk ([Fig. 1](#page-4-0)). Based on the RPs, over three-quarter of areas were assessed as medium risk. Particularly, extreme high risk and high risk accounted for 1 % and 21 % of studied locations, respectively. Higher risk areas were mainly distributed in southeast China including Minnan River basin, Guangxi basin, and Two Lakes plain, with scattered locations at Songnen Plain ([Fig. 2](#page-4-0)). Despite the landing area accounting for 16 % of the national mass, around one-third of extreme high-risk locations were distributed in these risk hotspots. The higher risks were mainly caused by the spatial distribution patterns of major farming systems, soil properties, and pesticide usage in these regions. Besides the high-risk areas, attentions should also be paid to other regions, especially for densely populated areas with the ecological risks evaluated as medium risk. For instance, the landing area of the North China Plain accounting for only 3 % of the national mass; however, the medium ecorisk might affect near one-quarter of the national populations who lives in the NCP. The ecological risks were mainly contributed by insecticides and herbicides with minor risk induced by fungicides. Specifically, chlorpyrifos contributed most to the total ecological risks by accounting for over 65 % of the RPs, followed by atrazine and butachlor. Chlorpyrifos was largely applied in the Minnan River basin and Two-lakes basin (Fig. S2 in the Supplementary Data 3), while the input in the Northern China was much lower, potentially leading to lower ecological risks of pesticides in that region. Despite the high concentrations, glyphosate only made minor contributions (1.4 %) to the ecological risks. Particularly, among the extremely high- and high-risk areas, chlorpyrifos was the predominant risk contributor accounting for roughly 80 % of the RPs.
+
+In this study, the insecticide chlorpyrifos and herbicides such as butachlor and atrazine significantly contributed to the total ecological risks at the studied locations. Chlorpyrifos was found to inhibit reproduction of soil species with *F. candidadid* evaluated as the most sensitive species [\(Carniel, 2020](#page-6-0)). As a commonly used herbicides, atrazine can induce oxidative stress and genotoxicity, leading to increased mortalities [\(Peluso, 2022](#page-6-0)). On the contrary, studies in Eastern Europe found that conazole fungicides and chlorotriazine herbicides were the primary contributors to ecological risks for soil biota (Vaˇsíˇckova ´ [et al., 2019](#page-6-0)). These differences may be attributed to variations in crop types and pesticide application patterns across different regions. It should be noted that, in this study, the risk assessment was performed based on the concentration-addition approach by assuming only addictive effects existed among pesticide combinations. However, synergistic and antagonistic effects have been discovered to exist among pesticide combinations, such as dimethomorph-pyrimethanil and chlorpyrifos
+
+<span id="page-4-0"></span>
+
+
+
+**Fig. 1.** Contributions (%) of pesticides to the ecological risk.
+
+
+
+**Fig. 2.** Ecological risk of pesticides to soil biota in the agricultural soils in China.
+
+and acetamiprid combinations [\(Li et al., 2023; Zhang et al., 2024; Wang,](#page-6-0)  [2023\)](#page-6-0). The mixture effects of pesticide combinations also add uncertainties to the risk assessment results, thereby more ecotoxicity experiments need to be exerted to examine the synergistic effects among commonly used pesticides and develop more holistic risk assessment models. Our risk assessment was based on ecotoxicology tests involving five soil biota species, which may not represent the full diversity of soil organisms. Future research should focus on comprehensive ecotoxicology tests and risk assessments to understand the interactions among commonly used pesticides and their effects on a broader range of soil biota species. Additionally, the bioavailability of pesticides in soil is a key factor determining their exposure risk to soil biota. Only dissolved pesticides are mobile and thereby considered potentially available for multiple processes, such as transformation, degradation, plant intake and transport to other environment domains (Boˇskovi´[c, 2020](#page-6-0)). The soil adsorption process is subjected to multiple factors such as pesticide and soil properties, such as total organic carbon (TOC), pH, soil texture, and
+
+cation exchange capacity ([Gao et al., 2012](#page-6-0)). The adsorption and desorption of pesticides on soil particles affects their exposure risk, and this dynamic should be considered in future studies. Soil biota is crucial for maintaining soil ecosystem functions, including nutrient cycling, organic compound deposition, and crop yield. Balancing pesticide application, crop yield, and soil quality is essential, and sustainable crop protection strategies should be developed based on the risk assessment results of this study and local crop types and climatic conditions. Future studies can aim at designing sustainable plant protection strategies in major cropping systems by combining optimized pesticide usage and field measures.
+
+# *3.3. Integrated usage-impact model for the identification of prioritizing control pesticides*
+
+In this study, we identified discrepancies between pesticide input mass and their ecological risks. To address this, we developed an integrated usage-impact model to prioritize pesticides, taking into account their input, persistence, and ecological risks ([Fig. 3](#page-5-0)). Azoxystrbin and boscalid were classified as priority control pesticides with a long persistence that need urgent management and supervision regulations (Table S5 in the Supplementary Data 3). Based on the PIRE values, butachlor and chlorpyrifos posed high risk to soil biota with much less inputs, requiring attention on the safe use in the fields. Throughout the two-step workflow, this study identified priority control pesticide list consisting of the prioritized pesticides in the first step, and the ones of focused attention and candidate categories with high PIRE (Table S5 in the Supplementary Data 3).
+
+Efforts have been devoted into the prioritization of pesticides in multiple environmental domains. Stepwise pesticide prioritization procedures were developed based on the monitoring data, risk assessments, and toxicities of pesticides ([Tsaboula, 2016; Utami et al., 2020; Alves-](#page-6-0)[Ferreira, 2024](#page-6-0)). Epidemiology studies were also performed pesticide categorization based on pesticide exposures and the resulting health impacts ([Gunier et al., 2001; Valcke, 2005](#page-6-0)). This study proposed a more flexible workflow on the basis of high-resolution pesticide input and concentration datasets, which helps with the designation of regional collective pesticide management strategies. Moreover, the criteria for categorizing pesticides can be adjusted based on different management purposes to present multiple versions of prioritized pesticide lists.
+
+This work predicted non-cumulative concentrations of pesticides in soil based on CPI model, serving as a validation of the model estimates by comparing with field measurements. The predicted concentrations of AIs refer to their average level of non-cumulative concentrations within
+
+<span id="page-5-0"></span>
+
+**Fig. 3.** Integrated usage-impact model for the identification of priority control pesticides. A, pesticide classification matrix. B, the calculated pesticide-Induced risk efficiency (PIRE).
+
+cell grids after one year-round of pesticide application. In most concentration comparisons, the CPI-based concentration predictions correctly estimated the existence of pesticide active ingredients (AIs) in certain regions, with differences in concentration comparisons ranged within 1 order of magnitude for most AIs (Fig. S3 and Table S3 in the Supplementary Data 3). Nevertheless, differences identified in concentration comparisons of certain AIs indicate uncertainties introduced in the calculation procedure. For the concentration comparisons, we found much higher average and maximum concentrations were shown in the measured concentrations than model predictions, except atrazine and chlorpyrifos. The differences found in concentration comparisons might be caused by uncertainties introduced in concentration predictions, limitations of predictive models, and differences in sample schemes. Parameters used in predictive models include soil bulk density, depth, plant interceptions and pesticide application rates. We used spatially explicit datasets of pesticide application rates, harvested area, and soil bulk density at a resolution of 5 arcmin, which introduces uncertainties when compared with measured pesticide concentrations at a farm level. For the plant interception factor, we performed a simplified calculation by using generic values for different types of pesticides under the assumption that all AIs were applied once a year at a rate of annual input ([Tang et al., 2021](#page-6-0)), instead of using AI-, growing stage- or crop-specific parameters. Meanwhile, the background level of pesticides in soil were not considered in concentration predictions due to missing data on the historical input of pesticides, which might cause underestimations when compared with measured concentrations. Other than exogenous inputs from on-site pesticide application events, the residual level of pesticides in soil are also subjected to off-site transport of pesticides, including drifts from pesticide spray in adjacent farms and remote transport over long distances driven by wind erosion ([Silva, 2018; Niu, 2020](#page-6-0)). To date, the quantitative model regarding the off-site transport of pesticides is still missing. With limited number of parameters considered in the calculation, current predictive models showed limited accuracy in concentration predictions when compared to field measurements at both farm and regional scales [\(Knuth, 2024](#page-6-0)).
+
+In future studies, actions should be taken from a context of methodology to improve the predictability of pesticide soil concentrations. First, background concentrations of pesticides in soil should be predicted [\(Zhang, 2024\)](#page-6-0), or the quantitation of pesticide historical inputs
+
+by considering the time dynamic of pesticide input patterns. Second, predictive models should be developed to quantify the off-site transport of pesticides by dissipation and wind erosion. Third, the resolution of key parameters used in predictive models should be improved. Despite the differences found in concentration comparisons, this work provides an overview of non-cumulative concentrations of AIs and the resulting ecological risks, which is indicative for policy makers for better designation of more precise regional pesticide management and supervision strategies.
+
+# **4. Conclusion**
+
+This study predicted pesticide concentrations in the agricultural soils in China and assessed the ecological risks of pesticides to soil biota based on the CPI model. Further, an integrated usage-input model was proposed to identify prioritize control pesticides based on the ecological risks of pesticides and their persistence and input. Glyphosate is the most prevalent pesticide in soil with the highest concentrations exhibited. Over three-quarters of areas were assessed as medium risk. Extreme high- and high risk were displayed in 1 and 21 % of soils, which is mainly caused by the accumulation of chlorpyrifos. Prioritize control pesticides were identified based on the integrated usage-impact model that considers the input, risk, persistence of pesticides.
+
+The analysis of this study reveals the regional variances in pesticide contamination in agricultural soils in China. The input and eco-risk maps of pesticides provide data support and enable local governments implement risk-oriented pesticide supervision and management strategies. The pesticide prioritization model also facilitates the designation of regional risk mitigation policies by reducing or prohibiting the input of regional-specific high-risk pesticides and sustainable pesticide usage strategies.
+
+#### **CRediT authorship contribution statement**
+
+**Bin Zhang:** Writing – review & editing, Writing – original draft, Visualization, Validation, Software, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. **Hongyu Mu:** Writing – review & editing, Writing – original draft, Visualization, Validation, Software, Methodology, Investigation, Formal analysis, Data curation, <span id="page-6-0"></span>Conceptualization. **Hua Li:** Software, Methodology, Formal analysis, Data curation. **Xianghua Zhang:** Software, Formal analysis. **Guang Yang:** Validation, Software. **Wenxiu Chen:** Software, Formal analysis. **Yan Yan:** Supervision, Resources. **Wei An:** Supervision, Methodology, Funding acquisition, Conceptualization. **Min Yang:** Validation, Supervision, Resources, Funding acquisition.
+
+#### **Declaration of competing interest**
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+#### **Acknowledgments**
+
+This work was financially supported by the National Key Research and Development Program of China (2021YFC3200804; 2018YFE0204101), the National Natural Science Foundation of China (21976205) and the China Scholarship Council (201913043).
+

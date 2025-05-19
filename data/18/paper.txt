@@ -1,0 +1,274 @@
+
+
+Contents lists available at [ScienceDirect](www.sciencedirect.com/science/journal/01604120)
+
+# Environment International
+
+
+
+journal homepage: [www.elsevier.com/locate/envint](https://www.elsevier.com/locate/envint)
+
+Full length article
+
+# Identifying studies evaluating susceptibility factors for chemical health assessments: A case study focused on methylmercury developmental neurotoxicity
+
+Deborah Segal a,\* , Rebecca Nachman <sup>a</sup> , Onyemaechi Nweke <sup>a</sup> , Elizabeth Radke <sup>a</sup> , Geanine Brunson <sup>b</sup> , Bita Khoshhal c,1 , G. Nicole Helguero <sup>c</sup> , Leonid Kopylev <sup>a</sup>
+
+<sup>a</sup> *US EPA, 1200 Pennsylvania Ave, NW, Washington, DC 20460 USA*
+
+<sup>b</sup> *University of Maryland School of Public Health, 4200 Valley Dr, College Park, MD 20742, USA*
+
+<sup>c</sup> *George Mason University, 4400 University Drive, MS: 5B7, Fairfax, VA 22030 USA*
+
+#### ARTICLE INFO
+
+Handling Editor: Dr N Roth
+
+*Keywords:* Literature search Systematic review Susceptibility Methylmercury Filter Screening human health risk
+
+#### ABSTRACT
+
+Identifying susceptibility factors for adverse health effects from chemical exposures is an important aspect of characterizing human health impacts. However, to date, an efficient approach for identifying these factors has not been established. To address this limitation, two approaches were utilized to find studies that contained susceptibility information using methylmercury (MeHg) developmental neurotoxicity (DNT) as a case study. Both approaches start with a comprehensive literature search of 5 databases on MeHg followed by keyword filtering for potential epidemiology studies; however, the approaches diverged for the subsequent steps. Approach 1 initially included screening of all 7,531 studies captured by the human filter, but was modified when it was determined that 96% of studies found to include susceptibility information were captured by a dose–response filter. Approach 2 developed a susceptibility filter to limit the screening needed.
+
+Approach 1 resulted in the identification of 172 studies with information on MeHg DNT susceptibility. Approach 2 reduced screening by 52%, but only captured 74% of PECO-relevant studies when applied to the final study set. Although Approach 2 reduced screening by 12% compared with the use of the dose–response filter in Approach 1, the decreased detection of relevant studies precludes its use in most cases. Expected technological advances that allow refinement of a susceptibility filter to improve performance would be advantageous because of the potential further reduction in screening burden. However, at this time, Approach 1, involving the application of a dose–response filter, is currently recommended for identifying epidemiology papers with information on susceptibility factors.
+
+## **1. Introduction**
+
+# *1.1. Background*
+
+*Susceptibility* is defined as an increased likelihood of an adverse effect (U.S. EPA, [2005](#page-7-0)), and traditionally, susceptibility to health effects from chemical exposures has focused on the consideration of biological factors, including pre-existing diseases, nutritional deficiencies, sex, lifestage, and genetic polymorphisms. These factors exert their influence through effect modification, either through an interaction of the susceptibility factor and chemical exposure or through their additive effects.
+
+Non-biological susceptibility factors are now being considered more frequently in chemical health assessments as well due to a growing body of evidence suggesting that susceptibility factors related to residing in communities that face multiple environmental hazards and economic hardships may further increase the risk of experiencing adverse health effects due to chemical exposures (Bellinger 2000; [Clougherty](#page-7-0) et al. 2007, [2010,](#page-7-0) 2022; [Cory-Slechta](#page-7-0) et al., 2008; [HHS,](#page-7-0) 2023; [Segal](#page-7-0) et al., 2015; [Virgolini](#page-7-0) et al., 2005). This has important public health implications, because individuals in certain communities might be both more *sensitive* (i.e., they experience greater adverse health effects at chemical
+
+\* Corresponding author.
+
+#### <https://doi.org/10.1016/j.envint.2025.109331>
+
+Available online 15 February 2025 Received 9 July 2024; Received in revised form 12 February 2025; Accepted 12 February 2025
+
+0160-4120/Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license [\(http://creativecommons.org/licenses/by-nc-nd/4.0/\)](http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+*E-mail address:* [segal.deborah@epa.gov](mailto:segal.deborah@epa.gov) (D. Segal).
+
+<sup>1</sup> U.S. Department of Health and Human Services, 5600 Fishers Ln, Rockville, MD 20852 USA.
+
+exposures that are less harmful to others) and more exposed to chemicals (Lipfert et al., 2004; [Woodruff](#page-7-0) et al., 2023). Increased sensitivity may be partly due to the chronic stress inherent to living in these communities. However, other susceptibility factors, such as lack of access to medical care and affordable healthy foods, might also contribute to increased risk. It should be noted that susceptibility factors can act individually or together to increase susceptibility ([Varshavsky](#page-7-0) et al., [2023\)](#page-7-0).
+
+Identifying all susceptibility factors that modify the health effects of chemical exposures, including the traditional biological factors and those related to lower socioeconomic status (SES) and lifestyle, is a critical step in chemical health assessment. Many chemical health assessments establish acceptable exposure limits meant to be protective of the entire population if the value is not exceeded. For example, the World Health [Organization](#page-7-0) (2021) states that one of their core principles in chemical health assessment is that sensitive populations must be accounted for by some mechanism to reduce the likelihood that their risk will be underestimated. Similarly, EPA Integrated Risk Information System (IRIS) chemical health assessments develop reference values (RfVs), such as the Reference Dose and Reference Concentration, which are estimates of a daily oral or inhalation chemical exposure, respectively, to the human population, including the most sensitive, that are likely to be without an appreciable risk of deleterious effects during a lifetime (U.S. EPA, [2002\)](#page-7-0). Including the "most sensitive" in the definition implies that the RfV is meant to protect, not just the general population, but susceptible individuals as well. However, according to the National Academy of Sciences (NRC, [2009\)](#page-7-0), human variability and susceptibility have been inadequately addressed in most EPA chemical health assessments. They further suggested that EPA develop better methods for quantifying population variability resulting from susceptibility factors in dose–response analyses; hence, in the derivation of reference values [\(NRC,](#page-7-0) 2009).
+
+The current practice for EPA chemical health assessments is to account for susceptibility or variability across a population by applying a default Uncertainty Factor of 10 for Interindividual Variation (UFH) (U.S. EPA, [2002](#page-7-0)). When population-based data are available, decreasing or increasing the UFH of 10 can be justified (U.S. EPA, [2002](#page-7-0)). However, a UFH of less than 10 is only used if dose–response data exist for a highly susceptible population (U.S. EPA, [2022\)](#page-7-0), but to identify highly susceptible populations, pertinent susceptibility factors must be known.
+
+Identifying studies that include either quantitative or qualitative information for all possible susceptibility factors is challenging and is made more so by the inconsistent use of susceptibility terminology in the literature, hindering the development of search strings for literature searches and filters for narrowing literature search results. Part of the difficulty arises from the wide range of potential susceptibility factors, including the traditional biological factors, co-exposures to other chemicals, lifestyle factors, and non-chemical stressors, such as those related to low-SES. In addition, other possible susceptibility factors may be less recognized, such as medications that influence the toxicokinetics of chemicals, foods that alter the microbiome, and other factors that have yet to be considered.
+
+Another challenge is identifying papers that include information of direct relevance to susceptibility even if evaluating susceptibility is not the stated focus of the paper. For example, some studies include quantitative information, such as results of a stratified analysis based on the presence or absence of a susceptibility factor, or results of analyses that test for effect modification, but this information is not included in the title or abstract because it is tangential to the main results of the paper. This limits methods that rely on the detection of information in titles and abstracts.
+
+Common methods to identify studies on a specific topic include broad literature searches followed by screening of the retrieved studies. However, this can be extremely time consuming and inefficient because of the overwhelming number of studies often retrieved [\(Hosking](#page-7-0) et al., 2019; Prady et al., 2018; [Stallings](#page-7-0) et al., 2022). As an alternative, filters have been developed for specific topics to focus the search and limit the amount of screening needed (Gill et al., 2014; [Hosking](#page-7-0) et al., 2019; Morel et al., 2022; [Prady](#page-7-0) et al., 2018). However, filter performance has often been inadequate [\(Hosking](#page-7-0) et al., 2019; Reitjens et al., 2019), either because the filter did not identify a large percentage of relevant studies (low sensitivity) or it detected too many non-relevant studies (low specificity).
+
+#### *1.2. Aims and objectives*
+
+Because susceptibility information is necessary for both hazard characterization and dose–response analyses in chemical health assessments (U.S. EPA, [2022\)](#page-7-0), yet many assessments fall short in obtaining and using this information [\(NRC,](#page-7-0) 2009), searches were conducted in PubMed, Epistemonikos, and Prospero databases (see Supplemental Material A) for standardized methods for finding epidemiology studies that informed susceptibility to health effects from chemical exposures. Although no methods were found for identifying all known susceptibility factors for chemical health effects, the Updated Problem Formulation and Protocol for the Inorganic Arsenic IRIS Assessment (2016) details their literature search of the following potential susceptibility factors for arsenic health effects: demographic, genetic variability, lifestage, health status, behaviors or practices, social determinants, and reproductive age. Another study, by Ruiz et al. [\(2016\)](#page-7-0), involved a systematic scoping review of all factors that affect cognitive development, which included chemical and non-chemical stressors, but was not focused on factors that modified chemical risk.
+
+Additional related studies found during the searches included one on SES-related susceptibility factors that modify health effects from chemical exposures ([Deguen](#page-7-0) et al., 2022), and another one ([Bauer](#page-7-0) et al. [2020\)](#page-7-0) focused on selected effect modifiers (sex, genetics, co-exposures, and timing of exposure) of the association between metals (including MeHg) and DNT in children up to 8 years of age. Although these studies provided useful information on susceptibility, they were limited in the types of susceptibility factors they evaluated. However, two studies ([Hosking](#page-7-0) et al., 2019; Prady et al., 2018) developed approaches for identifying papers on health inequities. Similar to this effort, both developed filters, but their filters were designed to detect "social" factors contributing to health inequities, whereas this effort focused on developing a filter that detected "all" factors that increased risk, excluding those that are life-stage related, for health effects from chemical exposures. In the health care field, other filters have been developed as well. For example, Gill et al. [\(2014\)](#page-7-0) developed a filter for primary care, [Morel](#page-7-0) et al. [\(2022\)](#page-7-0) for deprescribing medications, and [Stalling](#page-7-0) et al. (2022) for prognostic factors, but because of their very different focus, direct comparisons to this effort cannot be made.
+
+Therefore, the goal of this effort was to compare the results of two general approaches for efficiently identifying the vast majority of epidemiology studies with information on all types of susceptibility factors, excluding those that are life-stage related, for health effects from chemical exposures. MeHg DNT was selected as a case study because it allowed the leveraging of ongoing systematic review work (U.S. [EPA,](#page-7-0) [2020\)](#page-7-0) and because there are several known modifiers of MeHg DNT, including nutrition and genetic polymorphisms ([Andreoli](#page-7-0) et al., 2017; Basu et al., 2014; Castoldi et al., 2008; [Crespo-Lopez,](#page-7-0) 2023; Dorea et al., 2018; [Eagle-Smith](#page-7-0) et al., 2018; Julvez & Grandjean, 2013; Rice, 2008), and many other potential modifiers have been evaluated in the literature as well.
+
+The two approaches used to identify MeHg DNT susceptibility factors are depicted in [Fig.](#page-2-0) 1. Briefly, Approach 1 consists of screening studies identified from a broad search of MeHg human studies for those containing susceptibility information using either completely manual screening methods (Approach 1a) or machine-learning (ML) assisted screening with additional use of a filter for studies with dose–response information (Approach 1b). Approach 2 applies a susceptibility search string (or "filter") to the same corpus of studies used in Approach 1. A
+
+<span id="page-2-0"></span>
+
+**Fig. 1.** Two Approaches for Identifying Susceptibility Factors. Approach 1B is a modified version of 1A diverging by using machine learning (ML) for title/abstract screening and applying a dose–response filter; Approach 2 develops a susceptibility filter in an attempt to reduce total screening. Note: Filters were applied using SWIFT Review software. Manual screening was conducted in DistillerSR. The machine learning software used for title/abstract screening in Approach 1B was SWIFT-Active Screener.
+
+known impediment to developing successful filters is that they can only read titles, abstracts, keywords and MeSH, but an attempt was made to determine the extent of this limitation and whether time saved in screening would compensate for it. Likewise, it was known that screening all studies as is done in Approach 1a is extremely timeconsuming, but it was necessary to complete this step as the gold standard to evaluate the effectiveness of other approaches. Although the approaches presented herein don't comprise a full systematic review as a risk of bias assessment and synthesis of results will occur later, the Preferred Reporting Items for Systematic reviews and Meta-Analyses—PRISMA (Page et al., [2021](#page-7-0)) were followed for applicable items.
+
+## **2. Methods**
+
+#### *2.1. Literature search*
+
+A literature search strategy was developed to be used in a systematic review of MeHg DNT effects in humans (U.S. EPA, [2020\)](#page-7-0). An initial literature search was conducted in 2017 (covering 1998–2017) and included searches of four databases: PubMed (National Library of Medicine), Web of Science (Clarivate Analytics), ToxLine (National Library of Medicine), and Science Direct (Elsevier). The search was intentionally broad and consisted of different terms for methylmercury (e.g., "methyl mercury", "methyl-mercury", "MeHg") or for mercury and food (e.g., "mercury and fish", "mercury and seafood"), because the form of mercury in seafood is likely to be methylmercury. Full search strings are available in Supplemental Material B.
+
+In 2019, a literature update was conducted (covering 2017–2019) using the same terms and syntax as the initial literature search. However, EPA no longer had the same access to Science Direct so only three databases were utilized: PubMed, Web of Science and ToxLine. A second literature update was conducted in 2022 (covering 2019–2022). At this time, ToxLine had been incorporated into PubMed, so only two of the original databases were searched (PubMed and Web of Science). However, a new database was added to the search: SCOPUS (Elsevier). Because the SCOPUS database was not available to EPA for the 2019 search, a retroactive search of the SCOPUS database was completed for 2017–2019.
+
+## *2.2. Swift Review filter*
+
+The studies identified by the literature searches were then filtered for potential human studies (See Supplemental Material C) in SWIFT Review (SCIOME), which is a freely available text-mining tool that considers titles and abstracts. "Tiab" (title and abstract) syntaxis was used to exclude Swift-generated *meta*-data during the application of the filters. ([Howard](#page-7-0) et al., 2016). A second filter was applied in SWIFT Review for studies that potentially had dose–response data (see Supplemental Material C). This created separate files for studies that potentially contained dose–response data (modeling of effects as a function of exposures) and those that were less likely to contain dose–response data. The two sets of studies were created so that it could be determined if most of the studies that were found to include MeHg DNT susceptibility information by fulltext screening were those that potentially had dose–response data.
+
+## *2.3. Inclusion criteria for screening*
+
+To be included during screening, a study had to provide information on potential effect modifiers of neurotoxic effects resulting from MeHg exposure during developmental periods, that is, in utero through early adulthood (*<* 25 yrs.). The inclusion criteria were generated from the PECO (Population, Exposure, Comparator, Outcome) statement (See [Table](#page-3-0) 1) developed to focus the goals of an offshoot project of the MeHg systematic review (U.S. EPA, [2020](#page-7-0)), aimed at identifying susceptibility factors for MeHg DNT.
+
+#### <span id="page-3-0"></span>**Table 1**
+
+PECO for MeHg DNT Susceptibility Project.
+
+| Population | Human populations exposed during life stages ranging from the fetus       |
+|------------|---------------------------------------------------------------------------|
+|            | through early adulthood (<25) when the brain is considered fully          |
+|            |                                                                           |
+|            | developed.                                                                |
+| Exposure   | Any quantitative exposure to MeHg based on biomonitoring data (e.         |
+|            | g., hair, nails, blood). Measurements must be either direct MeHg          |
+|            | measurements or measurements of total Hg (not other forms of Hg, e.       |
+|            | g., Hg salts).                                                            |
+| Comparator | Studies must include data on effect modification of MeHg DNT              |
+|            | (inclusion of an interaction term in analyses or stratification for those |
+|            | with the effect modifier and those without). Studies with qualitative     |
+|            | information on possible effect modification are also relevant.            |
+| Outcome    | DNT outcomes measured at any age, including—but not limited               |
+|            | to—tests or measures of cognition, motor function, behavior, vision,      |
+|            | and hearing, as well as decreased brain weight or head circumference      |
+|            | or structural alterations to the brain.                                   |
+
+## *2.4. Approach 1 A and B: Use of screening to identify MeHg DNT susceptibility-relevant information*
+
+The studies identified by this literature search and subsequently filtered as potential human studies using SWIFT Review were uploaded into DistillerSR, a tool for screening studies. The literature search results were screened as sets based on the years that they covered (i.e., 1998–2017, 2017–2019, 2019–2022).
+
+During the uploading step into DistillerSR, studies were tagged as either "dose–response" or "non-dose–response" based on SWIFT Review filtering discussed earlier. For Approach 1a both title/abstract and fulltext screening were conducted in DistillerSR and two independent reviewers screened each study for information on MeHg DNT susceptibility (see PECO). In the case of a conflict between the two reviewers, a third reviewer was involved in resolution. For title/abstract screening, if the study included information on MeHg DNT, it was marked as possibly containing susceptibility information and moved to full-text screening. For full-text screening, PECO criteria, as well as a screening form in DistillerSR with example susceptibility factors (see Supplemental Material D), guided a comprehensive evaluation to determine if the study indeed included MeHg DNT susceptibility information. This process was completed for study sets identified by both literature updates (2017–2019 and 2019–2022).
+
+Before screening the final large set of studies (1998–2017 literature search results), however, more efficient methods were sought. First, to determine if most of the PECO-relevant studies were those that potentially had dose–response information, the 1998–2017 set was separated into two subsets. The first subset included 800 studies (subset 1998- 2017a), divided equally between those identified by the SWIFT Review filter as potentially having dose–response information and those that were not identified by the filter. Based on the screening results of this subset as well as earlier sets (discussed in the results section below), two modifications were made to Approach 1a resulting in Approach 1b. First, only studies filtered as potentially having dose–response data would be screened (2,859) for the remaining subset of studies from the 1998–2017 literature search (1998-2017b). Second, SWIFT-Active Screener, which uses AI/ML to prioritize screening order, was selected for title/abstract screening of this large subset due to its ability to reduce screening, on average, by 60% ([Howard](#page-7-0) et al., 2020). This AI/ML software tool reorders studies remaining for screening by moving up those it determines to be relevant based on prior screening decisions. Thus, it is constantly reprioritizing studies for screening based on each screening decision. SWIFT-Active Screener also estimates the number of relevant studies remaining in the dataset that have not yet been screened ([Howard](#page-7-0) et al., 2020). Generally, when an estimated 95% of relevant studies have been reached, it is considered sufficient [\(Burgard](#page-7-0) & Bit[termann,](#page-7-0) 2023). However, because the SWIFT-Active Screener AI/ML application cannot read full-text, DistillerSR was used for full-text screening of the 1998-2017b studies as had been done for the other study sets.
+
+As a final step in Approach 1, backward citation searching was conducted because it was possible that studies were missed using these methods. Essentially, reference lists of seed studies were cross-checked to ensure that important studies had been identified.
+
+## *2.5. Approach 2: Development of a susceptibility filter*
+
+The first step of this approach was to develop an a priori susceptibility filter (filter 1) based on a current understanding of possible susceptibility factors as discussed in the introduction. A susceptibility filter that detects most of the "true" susceptibility studies (those that are PECO relevant after full-text screening) and a low number of false susceptibility studies would greatly reduce the time requirements for screening studies. Because the developmental period is a known susceptible lifestage for nervous systems effects from methylmercury exposure [\(U.S.](#page-7-0) EPA, [2020](#page-7-0)), the goal of this project was to identify susceptibility factors *other* than life-stage. Therefore, age-related terms were not included in the susceptibility filter.
+
+After its development, susceptibility filter 1 was applied in SWIFT Review to a test set, the previously identified potential human MeHg studies from the 2019–2022 set. This literature set was selected because the update had just been completed and it was the smallest set of studies. First, the number of studies detected by the susceptibility filter was determined. Second, the number of true MeHg DNT susceptibility studies identified by the susceptibility filter was calculated by comparing its results to the title/abstract and full-text screening completed in Approach 1a, which was considered the gold standard. To improve the susceptibility filter, the 2019–2022 set became the training set and titles and abstracts from this set were scanned for susceptibilityrelated terms that could be added to the filter. In addition, terms were removed if they did not contribute to identifying PECO-relevant studies or if they detected too many non-PECO-relevant studies. This resulted in susceptibility filter 2.
+
+It was important to apply susceptibility filters to a new set of studies (a new test set) to determine if they would perform well on a set of studies whose titles and abstracts weren't used to revise them. Therefore, susceptibility filter 2 was applied to a new test set, which was the 2017–2019 study set, and the number of true susceptibility studies detected (sensitivity) and number of false susceptibility papers detected (specificity) were determined. Based on these results, filter 2 was revised and became filter 3 which was applied to a new test set, the 1998–2017 set. Following the application of susceptibility filter 3 to both subsets from the 1998–2017 literature search, minor revisions were made and it became filter 4, which was applied again to the 1998–2017 set. Because filter 4 could not be applied to a new test set to be validated, only the results of filter 3 were considered in the conclusions of this effort.
+
+## **3. Results**
+
+## *3.1. Literature search and application of human and dose-response filters*
+
+The initial literature search resulted in the identification of 13,469 studies. The first update added 1,792 studies, and the second update found an additional 2,400. Therefore, in total, 17,661 studies were identified for the years 1998–2022 that potentially evaluated MeHg. Application of the human filter in SWIFT Review reduced the total number of studies from all literature searches to 7,531. Results from the literature searches and filtering in SWIFT Review are presented in [Table](#page-4-0) 2 and [Fig.](#page-4-0) 2.
+
+## *3.2. Results for Approach 1: Use of systematic review methods*
+
+Screening results are presented in [Table](#page-4-0) 3 and [Fig.](#page-4-0) 2. In summary, Approach 1a was used for the first three sets (2019–2022, 2017–2019, 1998-2017a), resulting in 2,798 studies being screened in DistillerSR. Of
+
+#### <span id="page-4-0"></span>**Table 2**
+
+Literature Search and Swift Review Filtering Results.
+
+| Literature Search Years                                                                  | 1998–2017 a<br>& b | 2017–2019 | 2019-<br>2022a | All<br>Searches |
+|------------------------------------------------------------------------------------------|--------------------|-----------|----------------|-----------------|
+| Studies Identified by<br>Literature Search                                               | 13,469             | 1,792     | 2,400          | 17,661          |
+| Studies Detected by Filter<br>as Potential Human                                         | 5,533              | 817       | 1,181          | 7,531           |
+| Studies Detected by Filters<br>as Potential Human and<br>Dose-Response                   | 3,259              | 523       | 731            | 4,513           |
+| Studiesb Detected by Filters<br>as Potential Human but<br>Not Potential Dose<br>Response | 2,274              | 294       | 450            | 3,018           |
+
+<sup>a</sup> This search included 485 studies that were published in 2017–2019.
+
+<sup>b</sup> This group comprises "Studies Detected by Filters as Potential Human" that remain after removing "Studies Detected by Filters as Potential Human and Dose-Response".
+
+these, 74 were identified as PECO relevant, and 71 or 96% had also been filtered as potential dose–response studies, meaning they potentially modeled DNT effects as a function of MeHg exposure.
+
+As discussed earlier, a decision was made to use SWIFT-Active Screener for title/abstract screening of the 1998-2017b subset. In addition, because 96% of the PECO relevant studies from the earlier screenings were potential dose–response studies, only the 2,859 potential dose–response studies (see Table 3) were screened for the 19982017b subset. The AI/ML feature of SWIFT-Active Screener further decreased manual screening by approximately 52%. During full-text screening, 97 studies were determined to be PECO relevant (See Table 3). Backward citation searching led to the identification of one additional PECO relevant study bringing the total to 98 for this subset. Combining the results from all literature searches, the systematic review methods approach identified 172 PECO relevant studies.
+
+| Table 3            |  |
+|--------------------|--|
+| Screening Results. |  |
+
+| Study Set/  | #        | # Identified as | # of PECO that were       |
+|-------------|----------|-----------------|---------------------------|
+| Subset      | Screened | PECO Relevant   | Potentially Dose-Response |
+| 2019–2022   | 1,181    | 31              | 30                        |
+| 2017–2019   | 817      | 28              | 27                        |
+| 1998-2017a  | 800      | 15a             | 14                        |
+| 1998-2017bb | 2,859c   | 97a             | 97                        |
+| Total       | 5,657    | 171c            | 169                       |
+
+<sup>a</sup> These numbers include 6 studies published before 1998, because all studies that were considered in the 2001 Methylmercury IRIS Assessment were included in the 1998–2017 study set regardless of their publication date.
+
+<sup>b</sup> For the 1998-2017b subset, only studies that had been identified as potential dose response by the SWIFT Review filter were screened.
+
+<sup>c</sup> TIAB screening was conducted in SWIFT-Active Screener. Prior to filtering for potential dose response, there were 4,733 studies.
+
+
+
+**Fig. 2.** Results of Approaches. This figure depicts results of literature searches, title/abstract and full-text screening, filter use, and overall results of approaches.
+
+## *3.3. Results for Approach 2: Development of a susceptibility filter*
+
+When the a priori susceptibility filter 1 (see Table 4) was applied in SWIFT Review to a test set (the 1,181 potential human MeHg studies from the 2019–2022 set), it detected 1,179 studies. It captured all true susceptibility studies, but it clearly would not reduce the number of studies needing screening since it detected so many false susceptibility studies. Because filter 1 was created a priori based on general knowledge of susceptibility factors as discussed in the introduction, many of the terms used in the filter were found to detect too many non-PECOrelevant studies, therefore, they were removed, resulting in susceptibility filter 2, which included many fewer terms.
+
+Application of susceptibility filter 2 (see Table 4) to a new test set (the 2017–2019 set) resulted in the detection 306 of the 817 studies; however, it only captured 17 of the 28 true studies with MeHg DNT susceptibility information, which was considered inadequate.
+
+Some of the studies missed for the 2017–2019 set using susceptibility filter 2 that should have been detected focused on co-exposures as susceptibility factors; therefore, the chemical pollutants and nutrients that co-occur with methylmercury in seafood were added to the filter. Several terms (e.g., plus, supplement, connected, adjust\*) were also removed from the filter because they were determined not to be related to susceptibility content. This resulted in susceptibility filter 3 (see Table 4).
+
+When susceptibility filter 3 was applied in SWIFT Review to a new test set (the 1998-2017a subset of 800 studies), 484 were detected; however, it captured only 11 of the 15 PECO-relevant studies found using the gold standard methods of Approach 1a. One of the missed studies lacked an abstract, two provided information on sex as an effect modifier, and one addressed toxicokinetic differences, possibly attributed to the use of antibiotics by mothers during pregnancy.
+
+Susceptibility filter 3 was also applied to the 1998-2017b literature search subset after application of the dose–response filter to see if it performed better when applied only to potential dose–response studies. Its use resulted in identification of 1,527 of the 2259 studies, yet it only captured 74 of the 98 true susceptibility studies identified using Approach 1.
+
+The application of susceptibility filter 3 to the potential human studies from both of the 1998–2017 subsets (without application of the dose–response filter) resulted in the capture of 84 of the 113 PECOrelevant studies and the detection of 2,638 of the 5,533 studies. Of the studies missed, 18 evaluated sex alone as an effect modifier, one evaluated sex and home quality, and another evaluated sex as well as tobacco use and fruit and vegetable intake, two evaluated fish consumption, one fruit nutrients, one co-exposure to lead, one obesity, one microbes, one toxicokinetic differences, and one evaluated exposure to polyunsaturated fatty acids but did not provide this term in the title or abstract. Lastly, one study missed did not include an abstract.
+
+To make final improvements, terms in susceptibility filter 3 were scanned for logical corrections. The revisions entailed adding *stratif\** and *"(susceptib\* AND (risk\* OR hazard\*))"* to the filter, and asterisks were inserted after *male* and *female*. Lasty, *fatty acids* was changed to *"fatty acid\*".* This resulted in susceptibility filter 4 (see Table 4). However, because it could not be applied to a new test set for validation, only results of filter 3, which were validated using a new test set, were considered in conclusions. Therefore, final results are based on susceptibility filter 3, which identified 74% of PECO-relevant studies and reduced screening by 52%.
+
+## **4. Discussion**
+
+To identify epidemiology studies with susceptibility information for chemical health assessments, the results of two general approaches were compared using MeHg DNT as a case study. Approach 1, which initially screened all studies (Approach 1a), was applied to the first three sets of studies, but was modified to include the use of a dose–response filter
+
+#### **Table 4**
+
+1
+
+Susceptibility Filters and Their Performance.
+
+Filter susceptib\* Or vulnerab\* OR sensitiv\* OR modif\* OR stratif\* OR mediat\* OR interaction OR gene\* OR predisposition OR joint\* OR additive OR multiplicative OR random intercept OR random slope OR latent variable OR underlying OR polymorphism OR stressor OR non-chemical OR nonchemical OR zip code OR coexposure OR cumulative OR communit\* OR mixture OR psychosocial OR SES OR socioeconomic status OR preexisting OR disease OR immunocompromised OR health status OR geography OR race OR ethnicity OR subsistence OR indigenous OR tribal OR nutrition\* OR lifestyle OR gender OR preparedness OR inter-individual OR income OR urban OR rural OR hobb\* OR low-income OR poverty OR disadvantaged OR disproportionate OR allostat\* OR food insecure OR underresourced OR dispar\* OR inequit\* OR neighborhood OR cultur\* OR religious OR minority OR poor OR sex OR epigenetics
+
+Filter 2 Interact\* OR mixture\* OR indigenous OR sex OR genetic OR susceptib\* OR polymorphism\* OR synergistic OR plus OR rural OR boys OR girls OR genotype OR "associated factor\*" OR potentiat\* OR isoform\* OR supplement\* OR modif\* OR "co-exposure" OR "nonchemical" OR psychosocial OR "nonchemical" OR exposome OR urban OR connected OR rac\* OR adjust\*
+
+Filter 3 (indigenous AND (risk\* OR hazard\*)) OR (vulnerab\* AND (risk\* OR hazard\*)) OR (variat\* AND (risk\* OR hazard\*)) OR (nutrient\* AND (risk\* OR hazard\*)) OR (rac\* AND (risk\* OR hazard\*)) OR Interact\* OR synergistic OR mixture\* OR "co-exposure" OR cumulative OR genetic OR genotype OR polymorphism\* OR rural OR urban OR socioeconomic OR subpopulation\* OR sex OR gender OR boys OR girls OR male OR female OR "associated factor\*" OR potentiat\* OR modif\* OR "non-chemical" OR "nonchemical" OR psychosocial OR exposome OR selenium OR \*PUFA\* OR fatty acids OR PCBs OR polychlorobiphenyls OR chromium OR cadmium
+
+Filter 4 (indigenous AND (risk\* OR hazard\*)) OR (vulnerab\* AND (risk\* OR hazard\*)) OR (susceptib\* AND (risk\* OR hazard\*)) OR (variat\* AND (risk\* OR hazard\*)) OR (nutri\* AND (risk\* OR hazard\*)) OR (rac\* AND (risk\* OR hazard\*)) OR Interact\* OR synergistic OR mixture\* OR "co-exposure" OR cumulative OR genetic OR genotype OR polymorphism\* OR rural OR urban OR socioeconomic OR subpopulation\* OR sex OR gender OR boys OR girls OR male\* OR female\* OR "associated factor\*" OR potentiat\* OR modif\* OR "non-chemical" OR "nonchemical" OR psychosocial OR exposome OR selenium OR \*PUFA\* OR "fatty acid\*" OR PCBs OR polychlorobiphenyls OR chromium OR cadmium OR stratif\*
+
+Applied to 2019-2022 study set: Identified all 31 PECOrelevant studies and detected 1,179 of the 1,181 studies in the set.
+
+Applied to 2017–2019 study set: Identified 17 of 28 PECOrelevant studies and detected 306 of the 817 studies in the set.
+
+Applied to 1998–2017 study set: Identified 84/113 PECOrelevant studies and detected 2,638 of the 5,533 studies in the set.
+
+Applied to 1998–2017 (a & b) study set: Identified 94 of 113 PECO-relevant studies and detected 3,007 of 5,533 studies.
+
+(Approach 1b) for the last set of studies. Approach 2 focused on developing a susceptibility filter (or search string). Both approaches started with a broad literature search for MeHg, followed by the application of a human filter.
+
+All studies were screened in the sets for which Approach 1a was applied. Screening all studies helps to ensure that those evaluating susceptibility factors that are not typically considered, such as medication use, are captured. In addition, full-text screening enables the identification of studies containing susceptibility information that was tangential to the study aims and, therefore, was not included in titles or abstracts. Although it is possible to miss studies through the literature search and subsequent screening, adding the step of backward citation searching, which resulted in the identification of one missing study, should lead to a reasonably complete identification of PECO-relevant studies.
+
+Although this project focused on capturing both quantitative and qualitative information on susceptibility to chemical exposures, 96% of the studies included as PECO-relevant during full-text screening had been identified by the dose–response filter. Although Approach 1a was extremely time-consuming, by applying the dose–response filter (as was done in Approach 1b), screening of epidemiology studies from all sets could be reduced by 40%, making Approach 1b much more efficient. Although Approach 1b is no longer the gold standard, capturing 96% of the true PECO studies was considered acceptable. Because the dose–response filter was not developed specifically for methylmercury, but to be chemical-agnostic, it is reasonable to assume that this would apply to other chemicals as well. This is because the dose–response filter captures studies with statistical terms reflective of examining quantitative estimates of the relationship between exposure and response, and susceptibility studies typically use the same terminology. For example, informative studies for susceptibility often provided stratified results or interaction analyses, both of which are detected by the dose–response filter.
+
+In contrast, using susceptibility filter 3 developed in Approach 2 resulted in approximately 52% fewer studies to screen, which was a greater reduction than what was achieved using the dose–response filter in Approach 1b. However, it only detected 74% of the true PECO relevant studies (as identified by Approach 1).
+
+The primary reason that the susceptibility filter failed to detect 26% of the PECO-relevant studies is that filters can only search titles, abstracts, keywords and MeSH, and pertinent information in the missed studies was only included in the main text. This was particularly evident for studies that performed logistic regression analyses stratified by sex. By comparing regression coefficients of stratified results, it could be determined if one sex was more sensitive than the other. However, the authors often did not present this information in the titles or abstracts; hence, the filters did not detect the studies.
+
+An overall limitation of applying the susceptibility filter developed in Approach 2 to other chemical health assessments is that it only focused on identifying susceptibility factors *other* than life-stage. Therefore, for systematic reviews that seek to identify studies that inform life-stage susceptibility, age-related terms would need to be added to the filter. In addition, it is unlikely that one susceptibility filter would be effective for all chemical health assessments. A base filter could be used, but adaptations would be needed for specific chemicals and the review context. For example, it would be necessary to add terms to the filter for common co-exposures for the chemical of interest.
+
+A limitation of both approaches is that they were only targeted at identifying epidemiology studies with information on susceptibility to MeHg DNT. For chemicals that have a less robust human database, the approaches would have to be modified to identify informative animal studies as well.
+
+Although this effort used DistillerSR and SWIFT-Active Screener for title/abstract screening, other applications are available for this task. For example, Khalil et al. [\(2022\)](#page-7-0) identified several other validated tools (based on specificity, precision, accuracy, sensitivity, reliability, recall, F-measure, and area under the curve), such as Rayyan and Absstrackr, which are both freely available and utilize AI/ML for title/abstract screening. However, the only validated tool (based on the factors listed for title/abstract screening) for full-text screening identified by [Khalil](#page-7-0) et al. [\(2022\)](#page-7-0) was DistillerSR, which was used in this effort and does not yet utilize AI/ML for full-text screening. Blaizot et al. [\(2022\),](#page-7-0) van de Schoot et al. [\(2021\),](#page-7-0) and [Howard](#page-7-0) et al. (2020) further discussed the strengths and limitations of various AI/ML tools used in systematic reviews.
+
+As the field of systematic review evolves, the ability of a susceptibility filter to capture PECO-relevant studies should also improve. Likewise, the standardization of language used to describe susceptibility factors would also increase the effectiveness of a susceptibility filter. Several efforts have been made to standardize susceptibility terms ([Schwartz](#page-7-0) et al., 2011; U.S. EPA, 2003), but to date, there is no universally accepted language.
+
+#### **5. Conclusion**
+
+Based on the findings of this case study, the authors suggest Approach 1b for identifying studies with susceptibility information for chemical health effects. That is, the authors recommend a broad literature search, followed by the application of a human filter and dose–response filter, but not the use of a susceptibility filter. This will reduce the amount of screening needed, while also capturing a vast majority of PECO-relevant studies. This should be followed by backward citation searching.
+
+These recommendations will likely change as library science search tools evolve. As discussed above, the standardization of language would improve the ability of a susceptibility filter to detect susceptibility studies. In addition, technological advances may enable the development of more sophisticated filters. In either case, an approach for identifying susceptibility studies might shift to the use of an improved susceptibility filter with better sensitivity and specificity that would allow a more timely identification and consideration of vulnerable populations in chemical health assessments.
+
+#### **6. Disclaimer**
+
+The views expressed in this article are those of the authors and do not necessarily represent the views or policies of the U.S. EPA.
+
+This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
+
+#### **CRediT authorship contribution statement**
+
+**Deborah Segal:** Writing – original draft, Methodology, Formal analysis, Conceptualization. **Rebecca Nachman:** Writing – review & editing, Conceptualization, Methodology. **Onyemaechi Nweke:** Writing – review & editing, Conceptualization. **Elizabeth Radke:** Writing – review & editing, Methodology, Conceptualization. **Geanine Brunson:** Writing – review & editing, Methodology. **Bita Khoshhal:** Writing – review & editing, Methodology. **G. Nicole Helguero:** Writing – review & editing, Methodology. **Leonid Kopylev:** Writing – review & editing, Methodology, Conceptualization.
+
+### **Declaration of competing interest**
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+#### **Acknowledgments**
+
+The authors would like to thank Francesca Branch and Ryan Jones, both of the U.S. EPA, for their review of this manuscript; two anonymous <span id="page-7-0"></span>reviewers for their input and Nicolas Roth, Associate Editor, Environment International, for editorial guidance; Aishwarya Javali, Afroditi Katsigiannakis, Michelle Mendez, Amanda Ross, Harry Whately, Maricruz Zarco, and Sheerin Shiraja of ICF Incorporated, LLC, for their support screening studies; and Michelle Angrish, of the U.S. EPA for her advice on AI/ML systematic review tools.
+

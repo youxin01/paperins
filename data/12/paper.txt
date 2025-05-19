@@ -1,0 +1,244 @@
+
+
+Contents lists available at [ScienceDirect](www.sciencedirect.com/science/journal/01604120)
+
+# Environment International
+
+
+
+journal homepage: [www.elsevier.com/locate/envint](https://www.elsevier.com/locate/envint)
+
+Full length article
+
+# Emerging threat to antibiotic resistance: Impact of mycotoxin deoxynivalenol on gut microbiota and clonal expansion of extensively drug-resistant enterococci
+
+Fengru Deng a,c,1 , Chuying Yao a,c,1 , Linyu Ke a,c , Meichan Chen a,c , Mi Huang a,c , Jikai Wen a,c , Qingmei Chen a,c , Jun Jiang a,c , Yiqun Deng a,b,\*
+
+<sup>a</sup> *State Key Laboratory of Swine and Poultry Breeding Industry, South China Agricultural University, Guangzhou 510642, Guangdong, PR China*
+
+<sup>b</sup> *Guangdong Academy of Agricultural Sciences, Guangzhou 510640, Guangdong, PR China*
+
+<sup>c</sup> *Guangdong Provincial Key Laboratory for the Development Biology and Environmental Adaptation of Agricultural Organisms, College of Life Sciences, South China* 
+
+*Agricultural University, Guangzhou 510642, Guangdong, PR China*
+
+#### ARTICLE INFO
+
+*Keywords:* Antibiotic resistance genes Sequence type ST123 Mobile genetic elements Vancomycin-resistant enterococci Last-resort antibiotics Virulence factors
+
+#### ABSTRACT
+
+Mycotoxins, antibiotic-resistant bacteria (ARB), and antibiotic resistance genes (ARGs) are significant environmental pollutants that pose considerable threats to environmental health and human safety through the food chain. This study is the first to investigate the impact of deoxynivalenol (DON), the most common mycotoxin, on antibiotic resistance dynamics in gut microbiota, demonstrating that DON exposure significantly selects for ARB and ARGs. Results indicated that 80.69 % of the ARGs with the highest increase in the DON group were exclusive to gram-positive bacteria, particularly those related to daptomycin. DON exposure enhanced the expression of virulence factors in gram-positive bacteria and increased reactive oxygen species (ROS) production and membrane permeability, compromising bacterial integrity and amplifying resistance mechanisms. DON also boosted the diversity and co-occurrence of ARGs and mobile genetic elements (MGEs), potentially facilitating the horizontal transfer of resistance traits. Notably, the dominant bacterial species isolated from broiler gut microbiota was identified as *Enterococcus faecalis*, which exhibited clonal expansion of sequence type ST123. This ST123 clone accounted for 86 % of the DON group and was associated with an extensively drug-resistant (XDR) phenotype, showing resistance levels exceeding 128 μg/mL to last-resort antibiotics such as daptomycin, vancomycin, and linezolid. Additionally, DON upregulated the expression of critical daptomycin resistance genes (*liaR, walK, liaS, mprF*, and *cls*) in vancomycin-resistant enterococci (VRE) isolates. This study highlights the microbiological and environmental hazards that mycotoxins pose to the antibiotic resistance crisis.
+
+#### **1. Introduction**
+
+Antibiotic-resistant bacteria (ARB) and resistance genes (ARGs) are considered emerging pollutants. The U.S. Centers for Disease Control and Prevention (CDC) has been classified vancomycin-resistant enterococci (VRE) as a "serious threat" to public health. The transmission of ARB and ARGs creates a cyclical pattern of antibiotic resistance among animals, humans, and the environment, posing a major ecological concern.
+
+Unlike traditional pollutants, ARB and ARGs proliferated through vertical gene transfer (VGT) ([Jiang et al., 2022](#page-11-0)) and clonal expansion ([Wang et al., 2022; Li et al., 2023\)](#page-11-0), and spread via horizontal gene transfer (HGT) [\(Jiang et al., 2022; Shao et al., 2018\)](#page-11-0), accelerating antibiotic resistance. Research shows that human-associated extendedspectrum β-lactamase-producing *Escherichia coli* (ESBL-Ec) strains, such as those in fecal matter or blood, were major sources of antibiotic resistance in aquatic environments. Specifically, sequence types ST38 and ST69 ESBL-Ec clones were prioritized for resistance monitoring ([Li](#page-11-0)  [et al., 2023\)](#page-11-0). In Switzerland, ST133 was the dominant VRE clone isolated from 191 geographically distributed water samples, harboring *vanA* gene cluster on transposon Tn*1546* ([Biggel et al., 2021\)](#page-10-0). Environmental factors and stresses can trigger bacterial stress responses, not
+
+\* Corresponding author.
+
+<https://doi.org/10.1016/j.envint.2025.109353>
+
+Available online 28 February 2025 Received 8 August 2024; Received in revised form 2 November 2024; Accepted 27 February 2025
+
+0160-4120/© 2025 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license [\(http://creativecommons.org/licenses/by/4.0/\)](http://creativecommons.org/licenses/by/4.0/).
+
+*E-mail address:* yqdeng@scau.edu.cn (Y. Deng). 1 Fengru Deng and Chuying Yao contributed equally to this study.
+
+<span id="page-1-0"></span>only shielding them from these threats but also altering their resistance profiles to antimicrobials ([Jiang et al., 2022; Biggel et al., 2021; Shao](#page-11-0)  [et al., 2018\)](#page-11-0). Thus, Understanding the factors driving bacterial resistance is crucial for effective management strategies.
+
+Mycotoxins, toxic secondary metabolites produced by fungi, are also common pollutants. The pervasive nature and difficult control of DON, the most common mycotoxin, have raised global public health concerns ([Gruber-Dorninger et al., 2019](#page-10-0)). DON was frequently detected in grains worldwide, with rates exceeding 60 %, and elevated levels have also been reported in aquatic environments (Zhao et al., 2022; [Gruber-Dor](#page-10-0)[ninger et al., 2019](#page-10-0)). Mycotoxins like DON often surpassed permissible levels in food, urine, and human metabolites, accumulating in animals through direct contact or contaminated feed, and ultimately entering the human food chain [\(Mishra et al., 2020](#page-11-0)).
+
+The gastrointestinal tract served as the primary defense mechanism against mycotoxins while also being the main site of their absorption ([Eskola et al., 2020\)](#page-10-0). Within this system, the gut microbiota played a critical role in maintaining the intestinal barrier and also served as a reservoir for ARB and ARGs ([Tan et al., 2022](#page-11-0)). Recent studies ([Jia et al.,](#page-11-0)  [2023; Liao et al., 2018](#page-11-0)) have demonstrated that DON can disrupt the intestinal barrier, particularly affecting the microbial component. Notably, the geographical distribution of ARB and ARGs shows significant overlap with that of mycotoxins, suggesting that they may coexist within similar ecological niches. Their potential intersection raises a compelling research question: do mycotoxins like DON influence bacterial resistance?
+
+DON's primary toxic effects on eukaryotic cells included inhibiting protein synthesis, inducing oxidative stress, and compromising cell membrane integrity ([Mishra et al., 2020](#page-11-0)). Bacteria can enhance antimicrobial tolerance by modifying ribosomes, altering membrane permeability, and regulating oxidative stress mechanisms ([Smith et al.,](#page-11-0)  [2023\)](#page-11-0). Despite these implications, research on the relationship between mycotoxins and bacterial resistance is lacking. This study aims to investigate how mycotoxins, acting as exogenous stressors, influence the emergence of ARB and the dissemination of ARGs, with a particular focus on daptomycin-resistant VRE isolated from the gut microbiota. Insights from this research will enhance our understanding of mycotoxin toxicology and environmental factors contributing to bacterial resistance.
+
+#### **2. Materials and methods**
+
+#### *2.1. Experimental animals and DON treatment*
+
+All experimental and animal-handling procedures were approved by the Institutional Animal Care Committee of South China Agricultural University (permit no. 2022A041) and followed relevant guidelines. Thirty 10-day-old broiler chickens with similar body weights were obtained from Guangzhou Manyi Poultry Co., Ltd., China. They had free access to feed and water, and none had been treated with antimicrobials prior to the study. The chickens were randomly assigned to a control group or a DON group. The control group received a standard diet, while the DON group was fed a diet with 5 mg/kg of DON (D0156; Sigma-Aldrich, MO, USA), a safe concentration for poultry [\(Grenier et al.,](#page-10-0)  [2013\)](#page-10-0). After 7 weeks, five broilers from each group were euthanized, and their cecal contents were aseptically collected. One portion was frozen at − 80 ◦C for microbial analysis, and another was mixed with sterile glycerol (20 %) and stored at − 80 ◦C for *in vitro* culture.
+
+#### *2.2. Metagenomic analysis and bioinformatics*
+
+Metagenomic sequencing was conducted on the Illumina NovaSeq platform. The sequences were clustered into operational taxonomic units (OTUs) using QIIME 2, which also annotated them to analyze microbial compositions. Alpha and Beta diversity analyses were conducted to assess microbial diversity within and across the groups. KEGG Orthology (KO) assignments were conducted using KOBAS. EggNOG and GO annotations were obtained with the EggNOG-mapper (v2) tool. The GO ontology was sourced using map2slim (<https://www.metacpan.org>). Additionally, annotations for the CARD, Metacyc, PHI, and VFDB databases were performed using Diamond (v2.0.15). For the identification and analysis of mobile genetic elements (MGEs), we utilized the comprehensive database of the Mobile Element Finder tool ([https:](https://pypi.org/project/MobileElementFinder/)  [//pypi.org/project/MobileElementFinder/](https://pypi.org/project/MobileElementFinder/)).
+
+# *2.3. Flow cytometric analysis of ROS and cell membrane permeability in gut microbiota*
+
+Microbiota suspensions were centrifuged at 1000g for 5 min, discarding the supernatant. Each sample was treated with 1 mL of 10 μM DCFH-DA in the dark and incubated at 37 ◦C for 20 min, with periodic inversion every 3–5 min for optimal probe interaction. After incubation, bacteria were washed thrice with PBS to remove extracellular DCFH-DA, resuspended in PBS, and analyzed using a flow cytometer (NovoCyte 02060R, ACEA Biosciences) at 488 nm excitation and 525 nm emission wavelengths to quantify reactive oxygen species (ROS) levels.
+
+The bacteria were washed twice with precooled 1 × PBS and resuspended in 500 μL PBS. 5 μL of propidium iodide (PI) was added, mixed gently, and incubated at 37 ◦C for 60 min with periodic inversion every 10–15 min. Fluorescence intensity was measured using a flow cytometer at 535 nm excitation and 615 nm emission, enabling analysis of membrane permeability changes.
+
+# *2.4. 16S microbiota analysis of in vitro aerobically cultured gut microbiota*
+
+The cecal contents from Section 2.1 were thawed on ice. The diluted gut microbiota suspension was inoculated into BHI medium and incubated for 24 h at 37 ◦C under aerobic conditions. Total DNA was extracted, and the V3-V4 region of the 16S rRNA gene was amplified, purified, quantified, and sequenced on the Illumina NovaSeq 6000 platform. Sequencing data were quality-controlled, assembled, and analyzed using QIIME2 to compare the gut microbiota composition and abundance between the DON and control groups, with specific focus on the proportions of gram-positive and gram-negative bacteria.
+
+## *2.5. Screening, isolating, and identifying Enterococcus sp. From gut microbiota*
+
+Cecal content samples from Section 2.1 were resuscitated in BHI broth, transferred to 6.5 % NaCl broth, and incubated overnight at 37 ◦C. The broth was then plated onto *Enterococcus* selective agar (HB0133; China Qingdao Haibo Biotechnology Co., Ltd) and incubated at 37 ◦C for 24–48 h. Medium-sized, smooth colonies that blackened the surrounding medium were preliminarily identified as *Enterococcus* sp. and confirmed by PCR.
+
+## *2.6. Antimicrobial susceptibility testing and molecular typing of Enterococcus isolates*
+
+The minimum inhibitory concentration (MIC) of various antibiotics for the isolate was determined using the standard broth dilution method recommended by CLSI (2023), with *E. faecalis* ATCC 29212 as the quality control strain.
+
+Multilocus sequence typing (MLST) was conducted on seven housekeeping genes (*gdh, gyd, pstS, gki, aroE, xpt, and yiqL*) for *Enterococcus* sp. using the *Enterococcus* MLST database [\(https://pubmlst.org/datab](https://pubmlst.org/databases/)  [ases/\)](https://pubmlst.org/databases/). The allelic profiles and sequence types were generated by comparing the sequences with those in the *Enterococcus* MLST database using BLAST.
+
+# <span id="page-2-0"></span>*2.7. In vitro induction of gut microbiota in additional samples and analysis of ARG expression by qPCR*
+
+To further verify DON's impact on gut microbiota antibiotic resistance, we included additional healthy broiler chickens from a Guangzhou slaughterhouse. Fresh cecal content (1–2 mg) was incubated in 100 mL of BHI broth at 37 ◦C for 24 h. The experiment included a control group and two DON treatment groups (5 μg/mL and 50 μg/mL), with treatments administered every 24 h and subculturing for 9 days.
+
+Bacterial RNA was extracted using the EASYspin Bacterial RNA Rapid Extraction Kit (Aidlab Biotechnologies Co., Ltd) according to the manufacturer's instructions. ARG expression was quantified by qPCR using gene-specific primers (Supplementary Table S1). qPCR was performed using the Hieff UNICON® Universal Blue qPCR SYBR Green Master Mix (Yeasen Biotechnology, Shanghai) and the Hieff® qPCR SYBR Green Master Mix (No Rox).
+
+#### *2.8. Statistical analysis and data visualization*
+
+Linear Discriminant Analysis Effect Size (LEfSe) identified significant taxa differences between the control and DON groups. Beta diversity analysis, visualized through PCoA, NMDS, and UPGMA hierarchical clustering, examined microbial community changes under DON exposure ([Ramette, 2007\)](#page-11-0). qPCR data were analyzed with GraphPad Prism; p-values *<* 0.05 were significant, *<* 0.01 highly significant. Flow cytometry data were analyzed and visualized using FlowJo (7.0). Interactions between ARGs and MGEs were explored using a Pearson correlation matrix, visualized as an association network with Gephi (0.10.1). P-values were adjusted using the False Discovery Rate method. Network analysis revealed co-occurrence patterns (Pearson correlation *P > 0.9*, significant *P < 0.05*).
+
+### **3. Results and discussion**
+
+### *3.1. DON altered abundance and composition of gut microbiota*
+
+The raw sequence data from metagenomic sequencing of broiler chicken intestinal content samples has been submitted to the NCBI BioProject database under accession number SRP500203: PRJNA1077890. In the control group, Firmicutes predominantly constituted the normal microflora of the broiler intestine (Supplementary Fig. S1a). However, the DON group showed elevated relative abundances of Bacteroidota, Proteobacteria, Actinobacteriota, and Cyanobacteria. At the genus level (Fig. S1b), among the top 15 genera, the relative abundances of *Ruthenibacterium*, *Faecalibacterium*, and *Flavonifractor* increased in the DON group. Conversely, the relative abundances of *Anaerobutyricum*, *Lawsonibacter*, *Dysosmobacter*, and *Blautia* decreased. The control and DON groups collectively harbored 3488 genera, with 380 genera exclusive to the control group and 250 unique to the DON group (Fig. S1c). PLS-DA (Fig. S1d) revealed significant divergence between the control and DON groups, indicating substantial species differences. Notably, the genera *Alistipes*, *Butyricoccus*, *Anaerotruncus*, *Ruthenibacterium lactis*, and *Sellimonas* were significantly enriched as marker species in the DON group (Fig. S1e). *Alistipes* spp. were implicated in diseases such as Parkinson's, colorectal cancer, and depression [\(Dalile et al., 2019; Hasan et al., 2022](#page-10-0)), suggesting that DON exposure may elevate the risk of these diseases by increasing their relative abundance. Previous studies [\(Liao et al., 2018; Jia et al., 2023\)](#page-11-0) have shown that DON can alter gut microbiota in animal models, leading to intestinal inflammation. Our findings suggest that DON similarly disrupted the broiler gut microbiota.
+
+## *3.2. DON exposure enriched ARGs of gram-positive bacteria in gut microbiota*
+
+Following DON exposure, analysis identified 1121 ARGs, with 22
+
+unique to the DON group and 26 exclusive to the control group ([Fig. 1](#page-3-0)a). PLS-DA highlighted significant differences in resistance genes between the two groups [\(Fig. 1](#page-3-0)b). LEfSe analysis showed that the control group had a 13.68 % abundance of the *vanH* glycopeptide resistance gene, while the DON group had a 59.88 % increase in *liaR* and *walK* daptomycin resistance genes ([Fig. 1c](#page-3-0)). Both glycopeptide antibiotics (e.g., vancomycin) and lipopeptide antibiotics (e.g., daptomycin) were only effective against gram-positive bacteria [\(Yeh et al., 2022](#page-11-0)). Daptomycin was typically used when vancomycin was ineffective, especially for complex systemic infections [\(Yeh et al., 2022\)](#page-11-0). Of particular note, 80.69 % of the ARGs with the highest increase in the DON group, including *liaR, walK*, and *vat*, were exclusive to gram-positive bacteria.
+
+Regarding ARO genes [\(Fig. 1d](#page-3-0)), the control group exhibited elevated levels of glycopeptide resistance gene *vanHB* and multidrug resistance regulator gene *marR*. Conversely, the DON group showed a significant increase in multidrug resistance transporter protein gene *msbA*, daptomycin resistance gene *walK*, and glycopeptide resistance gene cluster *vanYG*. In terms of antibiotic categories, no significant changes were observed in the control group. However, following DON exposure, there was a notable increase in the abundance of peptide and streptogramin resistance genes [\(Fig. 1e](#page-3-0)). The antimicrobial categorization of ARGs (Table S2) that increased in the DON group was predominantly linked to gram-positive bacteria, with streptogramin (18.87 %) and peptide (3.74 %) antibiotics showing the most significant rise.
+
+Emerging resistance mechanisms under DON stress included the loss of genes encoding antibiotic target proteins, such as porins, and the enzymatic inactivation of antibiotics through chemical modifications ([Fig. 1f](#page-3-0)). Based on known antibiotic resistance mechanisms [\(Smith et al.,](#page-11-0)  [2023\)](#page-11-0), DON-induced changes are suggested to affect antimicrobials such as β-lactams, vancomycin, streptogramins, and aminoglycosides.
+
+Exposure to DON significantly reshaped the gut microbiota's ARGs, particularly promoting ARGs targeting gram-positive bacteria. Additionally, DON's impact on *liaR* and *walK* gene expression appears to enhance bacterial resistance to the lipopeptide antibiotics.
+
+# *3.3. DON enhanced the expression of virulence factors in gram-positive pathogens*
+
+The results demonstrated that DON induction significantly increased relative abundance of various virulence factors (VFs), including competitive advantage, motility, bacterial invasion, and immune modulation ([Fig. 2](#page-4-0)a). Enhanced motility was closely linked to bacterial flagella ([Liu et al., 2022](#page-11-0)), while bacterial invasion was facilitated by capsules and adhesion mechanisms ([Liu et al., 2022\)](#page-11-0). Immune regulation functions were associated with anti-phagocytosis, antigen variation, and inflammatory signaling pathways ([Liu et al., 2022\)](#page-11-0), all crucial for bacterial adaptation and immune evasion.
+
+An in-depth analysis of the top 20 VFs revealed a marked increase in the gene abundance of flagella, polar flagella, capsules, and cereulide following DON exposure [\(Fig. 2](#page-4-0)b). The first three factors were essential for bacterial motility and invasion [\(Liu et al., 2022\)](#page-11-0), aligning with the earlier VF classification analysis. Notably, cereulide, a highly heat- and acid-resistant emetic toxin produced by specific strains of the grampositive bacterium *Bacillus cereus*, was linked to foodborne outbreaks and severe conditions such as hepatic encephalopathy and acute liver failure [\(Schreiber et al., 2021\)](#page-11-0). Although *B. cereus* was common, cereulide-producing strains were relatively rare ([Yang et al., 2023](#page-11-0)). Intriguingly, our findings suggest that DON may enhance cereulide production in the gut microbiota, thereby increasing the pathogenic profile of these bacteria. Conversely, the relative gene abundance of lipopolysaccharides (LPS) [\(Szentirmai et al., 2021\)](#page-11-0), colibactin [\(Carlson](#page-10-0)  [et al., 2019](#page-10-0)), and type three secretion system (TTSS) effectors ([Manisha](#page-11-0)  [et al., 2024](#page-11-0)), all reported exclusively in gram-negative bacteria, decreased following DON exposure [\(Fig. 2b](#page-4-0)). LEfSe analysis further highlighted that the virulence genes significantly enriched after DON exposure were predominantly related to the capsule and *RelA* ([Fig. 2c](#page-4-0)).
+
+<span id="page-3-0"></span>
+
+**Fig. 1.** Impact of DON on antimicrobial resistance in gut microbiota. a: Venn diagram of ARO resistance genes. b: PLS-DA of AMR gene families and ARO resistance genes. LefSe differential analysis of AMR (c), ARO (d), and drug classes (e). f: Random forest analysis of resistance mechanisms.
+
+These factors, commonly found in gram-positive bacteria like -*Streptococcus pneumoniae*, enhanced the bacteria's ability to adapt to and resist environmental stresses, thereby improving their survival and proliferation capabilities ([Croucher et al., 2015\)](#page-10-0).
+
+These findings suggest that DON exposure can selectively enhance the virulence and pathogenic potential of the gut microbiota, with significant implications for host health and disease management. The increased expression and activity of VFs in gram-positive intestinal pathogens are particularly noteworthy, warranting further investigation into the broader impacts of DON on microbial pathogenesis and hostpathogen interactions.
+
+# *3.4. DON enhanced ROS and cell membrane permeability of the gut microbiota*
+
+The results revealed that average fluorescence intensity, an indicator of ROS levels, was significantly higher in the DON group compared to the control [\(Fig. 3](#page-5-0)a). As ROS can damage cell membrane lipids and proteins [\(Mishra et al., 2020\)](#page-11-0), this suggests weakened membrane integrity. Flow cytometry further showed significantly higher fluorescence intensity of the bacterial outer membrane in the DON group ([Fig. 3b](#page-5-0)), indicating increased membrane permeability. This is critical as it can facilitate horizontal ARG transfer, potentially enhancing resistance spread within microbial communities [\(Zhu et al., 2023\)](#page-11-0).
+
+When exposed to DON, bacteria may enhance their survival by elevating ROS levels and altering membrane permeability, which also affected their drug sensitivity, thereby expanding the understanding of new stress sources that induce bacterial resistance. For instance, sublethal exposure to hydrogen peroxide (H2O2) enhanced bacterial survival and accelerated resistance by inducing long-lived scavenging enzymes, enabling adaptation to fluctuating ROS levels [\(Rodríguez-Rojas](#page-11-0)  [et al., 2020](#page-11-0)). Quaternary ammonium salts, organic halogens, alcohols, and guanidine disinfectants significantly facilitated conjugative transfer ([Zhu et al., 2023\)](#page-11-0). Guanidine disinfectants promoted this by increasing cell membrane permeability, over-producing ROS, enhancing the SOS response ([Zhu et al., 2023](#page-11-0)). This underscores the importance of understanding and mitigating environmental factors that contribute to the spread of antibiotic resistance.
+
+<span id="page-4-0"></span>
+
+**Fig. 2.** Impact of DON on microbiota virulence factors. a: Heatmap of virulence factor categories. b: Heatmap of virulence genes. c: LEfSe differential analysis annotated with VFDB.
+
+## *3.5. DON increased the diversity and co-occurrence of ARGs and mobile genetic elements*
+
+The results reveal a significant abundance of transposase elements, particularly following DON exposure [\(Fig. 4a](#page-6-0) and 4b). This increased in transposase activity, along with elevated levels of integrases and insertion sequences. Notably, transposase gene *tnpA* exhibited the highest gene abundance ([Fig. 4a](#page-6-0)). Within the Tn*3* family, *tnpA* has been reported to uniquely served a dual function in transposition and target immunity, positioning it as a key facilitator of ARG dissemination [\(Shkumatov](#page-11-0)  [et al., 2022\)](#page-11-0).
+
+DON further elevated gene abundances of other MGEs, notably insertion sequences IS*26* and IS*91*, the plasmid IncFHXY, and integrase genes *intI1* and *int2* ([Fig. 4a](#page-6-0) and 4b). Our LEfSe differential analysis identified a significant enrichment of IS*91* in the DON group ([Fig. 4c](#page-6-0)). This gene, associated with *tnpA* and located within the hemolytic plasmid of *E. coli*, was prevalent among pathogens from multiple genera known for causing gastrointestinal and urinary tract infections ([Garcillan-Barcia](#page-10-0) ´ et al., 2002). The IncF plasmid harbored critical ARGs such as *mcr-1*, *kpc*, and *ctx-m* ([Li et al., 2021; Rozwandowicz et al.,](#page-11-0)  [2018\)](#page-11-0). *intI* is prevalent in various clinically resistant bacteria and has been proposed as a marker for human-induced environmental pollution due to its rapid dissemination and broad impact (Ploy et al., 2022; [Corno](#page-10-0)  [et al., 2023\)](#page-10-0).
+
+We constructed a co-occurrence network based on the top 20 most abundant MGEs and 30 most abundant ARGs [\(Fig. 4](#page-6-0)d and 4e). Compared to the control group, the DON group network exhibited tighter coupling between MGEs and ARGs, characterized by increased edges, higher network density, and a greater average degree (Table S3). The control group network comprised 10 major modules, whereas the DON group network contained 7. Within the same modules, interactions among nodes (MGEs and ARGs) were more frequent than those between different modules, suggesting similar dynamics and dissemination patterns among MGEs and ARGs within the same module.
+
+In the control group ([Fig. 4d](#page-6-0)), interactions between MGEs and ARGs were limited, with transposase-related *tnpA*-IS*683* correlating positively with ARGs including *ptsI*, *rpsA*, and *fabG*, but negatively with daptomycin resistance gene *liaR*. In contrast, the DON group [\(Fig. 4](#page-6-0)e) showed increased interactions: vancomycin resistance gene *vanT* correlated positively with MGEs including *int*-Tn*916*, Tn*916*-*orf20*, and insertion sequence-related IS*Bf10*; methicillin-resistant gene *pbp2* correlated with Tn*916-orf13*, Tn*916-orf14*, and *int-*Tn*916*; and the major facilitator superfamily (MFS) antibiotic efflux pump correlated with *int*-Tn*916*. Tn*916-orf13*, Tn*916-orf14*, and *int-*Tn*916*, and *ISBf10* have been shown to facilitate the horizontal transfer of various ARGs within the gut microbiome (Zhou et al., 2023).
+
+The gut microbiota served as a critical reservoir for ARGs ([Tan et al.,](#page-11-0)  [2022\)](#page-11-0) and acted as the first line of defense against mycotoxin entry into the body ([Eskola et al., 2020](#page-10-0)). DON exposure may facilitate the emergence of ARB and the dissemination of ARGs via MGEs. The enhanced co-occurrence of ARGs and MGEs under DON exposure suggests a heightened risk of horizontal gene transfer (HGT), potentially posing significant implications for public health.
+
+## *3.6. E. faecalis emerged as the dominant bacterial species under DON exposure*
+
+The composition of the broiler gut microbiota from [Section 2.1](#page-1-0) was analyzed following *ex vivo* aerobic cultivation. Alpha diversity analysis revealed that both the Chao and Ace indices were notably lower in the DON group (Table S4), suggesting diminished biological abundance, as visually supported by [Fig. 5](#page-7-0). Despite these differences, the Shannon and
+
+<span id="page-5-0"></span>
+
+**Fig. 3.** A: flow cytometry analysis of ros in broiler intestinal microbiota. b: flow cytometry analysis of cell membrane permeability in microbiota.
+
+Simpson indices indicated no significant disparities in biodiversity between the control and DON groups.
+
+At a broader taxonomic level ([Fig. 5a](#page-7-0)), the DON group showed increased relative abundances of Firmicutes and Bacteroidetes. Genuslevel analysis [\(Fig. 5b](#page-7-0)) revealed a significant decrease in gramnegative bacteria like *Escherichia-Shigella* and unclassified *Enterobacteriaceae* in the DON group, alongside a marked increase in gram-positive bacteria such as *Enterococcus*, *Bacillus*, and *Gordonibacter*. Each of these bacteria was an opportunistic pathogen. *Gordonibacter* has been associated with peritonitis, chronic obstructive pulmonary disease, bacteremia, and surgical site infections ([Finegold et al., 2012\)](#page-10-0). *B. cereus* was known to cause foodborne outbreaks and severe conditions like hepatic encephalopathy and acute liver failure ([Schreiber et al., 2021](#page-11-0)). *E. faecalis* can facilitate the development and progression of colorectal tumors and enhance tumor cell proliferation [\(Dougherty et al., 2023;](#page-10-0)  Karpinski ´ [et al., 2022\)](#page-10-0).
+
+Statistical analysis of species attributes ([Fig. 5](#page-7-0)c and 5d) showed an increase in gram-positive species from 29 % in the control group to 47.51 % in the DON group. The phylogenetic tree [\(Fig. 5e](#page-7-0)) indicated significant shifts in the genera *Enterococcus*, *Bacillus*, and *Escherichia*. LEfSe analysis ([Fig. 5](#page-7-0)f) revealed that the control group was enriched with beneficial microbes like *Streptococcus*, *Lactobacillales*, *Clostridia*, and *Ruminococcaceae*. In contrast, the DON group predominantly featured the opportunistic pathogens *Enterococcus* and *Bacillus*, with -*Enterococcus* showing the highest enrichment (LDA score of 3.65), highlighting its significant role in the altered microbiota dynamics induced by DON.
+
+The increase in antimicrobial resistance profiles ([Fig. 1](#page-3-0)c, 1d, 1e) and virulence factors [\(Fig. 2\)](#page-4-0) in gram-positive bacteria suggests that DON selectively enhanced the growth competitiveness of these organisms, potentially affecting their resistance, pathogenicity, and interactions within the host's gut environment. Consequently, we focused on the chicken gut microbiota for *in vitro* screening and cultivation. Table S5 shows that *E. faecalis* was the dominant species, making up 69 % of the isolates from the DON group, with the rest primarily consisting of *Bacillus* sp. and *E. coli*. The *in vitro* cultivation results align with the sequencing analysis ([Fig. 5c](#page-7-0), 5d).
+
+## *3.7. DON induced XDR phenotypes in E. faecalis isolates within the gut microbiota*
+
+Screened *E. faecalis* from the gut microbiota of the DON group exhibited 100 % resistance rates to both tetracycline and erythromycin ([Fig. 6](#page-8-0) and Table S6). In contrast, *E. faecalis* from the control group were sensitive to most antimicrobials [\(Fig. 6](#page-8-0) and Table S6). *E. faecalis* exhibited the highest resistance rates to tetracycline and
+
+<span id="page-6-0"></span>
+
+**Fig. 4.** Co-occurrence analysis of ARGs and MGEs in gut microbiota under DON exposure. a: Heatmap of subcategory abundance in MGEs. b: Heatmap of category abundance in MGEs. c: LEfSe differential analysis of MGE annotations. Co-occurrence patterns of MGEs and ARGs in control (d) and DON (e) groups, based on Pearson correlation (*P > 0.85*, significant *P < 0.05*). Node colors indicated module membership, node size corresponded to connectivity ("degree"). Red lines represented positive interactions, green lines indicated negative interactions.
+
+<span id="page-7-0"></span>*F. Deng et al.* 
+
+
+
+**Fig. 5.** Impact of DON on the species composition of broiler gut microbiota after *ex vivo* aerobic cultivation. Relative abundance (%) of the 10 most abundant bacterial phyla (a) and genera (b), respectively. c: Pie chart depicting the classification of gram-positive and gram-negative bacterial species in the DON group. d: Bar chart showing the classification of gram-positive and gram-negative bacteria in both groups. e: Distribution of the bacterial community on the phylogenetic tree. f: LEfSe analysis chart illustrating differences in species composition.
+
+<span id="page-8-0"></span>
+
+**Fig. 6.** Molecular typing and antibiotic resistance profiles of *E. faecalis* isolated from gut microbiota. Antibiotics were abbreviated as follows, from left to right: tetracycline, erythromycin, fosfomycin, rifampin, penicillin, daptomycin, vancomycin, teicoplanin, linezolid, and ciprofloxacin. Color intensity indicated susceptibility, with "1, 0, − 1″ corresponding to dark to light colors, representing MIC values for resistance, intermediate susceptibility, and sensitivity, respectively.
+
+erythromycin, consistent with literature reports indicating high resistance rates of enterococci to these antibiotics ([Jabbari Shiadeh et al.,](#page-11-0)  [2019\)](#page-11-0). Notably, *E. faecalis* from the DON group showed resistance to all ten tested antibiotics, with strains D8 and D9 being extensively drugresistant (XDR) phenotype, resistant to all antibiotics except ciprofloxacin. These strains exhibited extremely high resistance, with MICs for daptomycin, vancomycin, linezolid, and teicoplanin exceeding 128 µg/ mL (Table S6). This enhanced resistance phenotype to daptomycin and vancomycin is consistent with previous metagenomic analyses [\(Fig. 1](#page-3-0)), which showed a marked increase in the relative abundance of peptide ARGs.
+
+However, studies report that *E. faecalis* and *E. faecium* generally exhibited low resistance rates and MIC values for daptomycin, vancomycin, linezolid, and tigecycline ([Yang et al., 2024](#page-11-0)). Isolates of enterococci and other clinically relevant gram-positive bacteria showed no resistance to these antibiotics, with some having a resistance rate of zero ([Jabbari Shiadeh et al., 2019; Esposito et al., 2023\)](#page-11-0). These antibiotics, highly effective against gram-positive bacteria, were considered last-resort options ([Turner et al., 2024; Chen et al., 2020\)](#page-11-0) and were used clinically to treat complex infections such as sepsis and endocarditis ([Chen et al., 2020; Yeh et al., 2022](#page-10-0)). The observed rise in resistance to daptomycin, a key treatment for MRSA and VRE infections ([Turner et al.,](#page-11-0)  [2024\)](#page-11-0), is particularly concerning. Metagenomic analyses ([Fig. 1](#page-3-0)) suggest that DON selected for specific ARGs, such as daptomycin genes *liaR* and *walK*. Both omics and resistance phenotype results suggest that DON exposure compromised the effectiveness of critical antimicrobials in clinical settings. The implications of our findings are profound, raising significant concerns about managing bacterial infections, especially those caused by gram-positive pathogens resistant to conventional treatments.
+
+# *3.8. DON promoted clonal expansion of sequence type123 E. faecalis within gut microbiota*
+
+MLST analysis (Fig. 6) showed that 86 % of *E. faecalis* in the control
+
+group were ST1171, while 86 % in the DON group were ST123, both unassigned to any clonal complex (CC). The occurrence of multiple strains with the same ST suggested a common ancestor and a highly similar genetic background ([Payne et al., 2020\)](#page-11-0). Notably, the daptomycin-resistant VRE strains D8 and D9, both belonging to ST123, indicate clonal expansion. These *E. faecalis* isolates from the same batch of broilers in the DON group (Fig. 6) suggest that DON exposure fosters the clonal expansion of ST123, likely due to its stress resistance and environmental adaptation advantages, making it more prevalent in mycotoxin-rich environments.
+
+Preventing and controlling resistant bacteria critically depend on understanding their clonal evolution and transmission mechanisms ([Wang et al., 2022\)](#page-11-0). Molecular epidemiological studies (Tedim et al., 2015; Guzman et al., 2016) have shown that *E. faecalis* causing infections predominantly belong to CC2 and CC9, including ST6, ST16, and ST40. The study (Dˇ[zelalija et al., 2023](#page-10-0)) report that vancomycinresistant *E. faecium* from wastewater, coastal waters, and hospitals shared similar virulence, multidrug resistance, and ST characteristics. All isolates carried *vanA*, and most also harbor the same aminoglycoside genes. ST117 and ST889 were common in both water sources and hospital isolates, indicating sewage-driven dissemination (Dˇ[zelalija et al.,](#page-10-0)  [2023\)](#page-10-0). Although research on the resistance and pathogenicity of ST123 *E. faecalis* is limited, the unique characteristics and competitive advantage of this type under DON stress highlight the urgent need for further investigation.
+
+To determine whether DON boosts the growth adaptability of daptomycin-resistant VRE, we introduced different DON concentrations into culture medium. Significant shifts in competitive dynamics were observed ([Fig. 7](#page-9-0)). *E. faecalis* D9 and D69 displayed a markedly enhanced competitive edge over *E. coli* D5. At a DON concentration of 10<sup>−</sup> <sup>2</sup> µg/ mL, the proportion of D69 reached 80.6 %, while the proportion of D9 soared to 98.1 %. These findings highlight the competitive superiority and robust adaptability of enterococci in environments containing DON. Table S7 supports that D9′s adaptability parameters significantly surpassed those of D69, suggesting that bacteria with higher antimicrobial
+
+<span id="page-9-0"></span>
+
+
+
+**Fig. 7.** Comparative competitiveness of *E. coli* against *E. faecalis* with varying resistance levels under different DON concentrations. All test strains were isolated from the intestines of the DON group [\(Section 2.1\)](#page-1-0). Strain D5 was *E. coli*. XDR strain D9 exhibited high-level resistance to ten antibiotics. Strain D69 was sensitive to most antibiotics.
+
+resistance levels were better equipped to adapt to mycotoxin pressures.
+
+Under DON exposure, the high adaptability of XDR strains and the prevalence of the ST123 clone of *E. faecalis* further complicate the spread of resistance.
+
+# *3.9. DON selectively enhanced the expression of ARGs in additional samples*
+
+To broaden the study, fresh cecal contents from chickens were harvested from slaughterhouses for *in vitro* culture. Under DON exposure, the transcription level of β-lactam resistance gene *bla* progressively
+
+increased over time (Fig. 8a). In contrast, *tetO* showed no significant change, while *tetQ* demonstrated a rising trend. By the 9th day, vancomycin resistance gene *vanR* displayed significant divergence, with daptomycin resistance gene *liaR* showing the greatest fold increase. The ARG expression trends in these samples align with the metagenomic resistance analysis results from [Section 2.1](#page-1-0) ([Fig. 1](#page-3-0)). Conversely, transcription levels of *E. coli*'s *marR*, *mdh*, and *vgrG* genes were downregulated, further supporting that DON diminished the competitive growth capabilities of gram-negative bacteria.
+
+To further investigate the effect of DON on daptomycin resistance, this study utilized more *E. faecalis* strains, including the sensitive strain
+
+
+
+**Fig. 8.** Effects of DON on transcription levels of ARGs in gut microbiota and *E. faecalis*. Upregulation (a) and downregulation (b) of specific ARGs in the microbiota from slaughterhouses. "DON-7d" represented outcomes after 7 days of treatment, and "DON-9d" after 9 days. Changes in transcription levels of daptomycin resistance genes in microbiota (c) and *E. faecalis* (d).
+
+<span id="page-10-0"></span>C67, the regular resistant strain C12, and the XDR strain D9. The study targeted genes associated with daptomycin resistance: the bifunctional transmembrane enzyme gene *mprF*, the cardiolipin synthase gene *cls*, and the *liaSR* gene of the two-component regulatory system. DON exposure significantly elevated the expression levels of these genes in gut microbiota compared to the control group ([Fig. 8](#page-9-0)c). Gene expression was consistently higher in resistant strains than in the sensitive strain, with XDR strain D9 exhibiting the most pronounced increase in transcriptional activity [\(Fig. 8d](#page-9-0)). Taken together, the results suggests that DON exposure may induce the upregulation of daptomycin resistance genes in both the broader bacterial community and specifically within *E. faecalis*, potentially enhancing resistance mechanisms.
+
+When interpreting the results, several limitations should be considered. Firstly, despite including broiler chickens ([Section 2.1](#page-1-0)) and fresh cecal samples from slaughterhouses ([Section 2.7](#page-2-0)), the overall sample size is not sufficiently large, which may affect the generalizability of our findings. Secondly, our research focused on chickens, which may not fully represent gut microbiota complexity in other animals or humans. Further studies with different hosts and environments are needed. Thirdly, our study was conducted under controlled laboratory conditions, which may not replicate natural interactions and pressures. Field studies are necessary to confirm our findings.
+
+Despite these limitations, this study firstly provided a crucial foundation for understanding the role of mycotoxins in antibiotic resistance and underscores the need for continued research in this area.
+
+## **4. Conclusion**
+
+This study reveals the profound impact of DON on bacterial resistance, providing the first evidence that the mycotoxin significantly promotes the emergence and spread of ARB and ARGs in gram-positive bacteria. Our findings demonstrated that DON enriched ARGs within the gut microbiota and enhanced the expression of virulence factors in gram-positive bacteria. Exposure to DON increased ROS production and membrane permeability, potentially strengthening resistance mechanisms. The increased diversity and co-occurrence of ARGs and mobile genetic elements (MGEs) suggest a robust mechanism for horizontal gene transfer, posing a serious public health threat. Additionally, the enhanced expression of daptomycin resistance genes underscores DON's potential to facilitate resistance spread within a complex microbial community.
+
+Notably, in the presence of DON, *E. faecalis* emerged as the dominant species, showing clonal expansion of ST123 and exhibiting XDR phenotypes. These strains's XDR phenotypes, with resistance levels exceeding 128 μg/mL to last-resort antibiotics like daptomycin, vancomycin, and linezolid, poses a challenge to current therapeutic options. Our findings underscore the urgent need for strategies to mitigate mycotoxin effects and curb antibiotic resistance. Future research should investigate the genetic adaptability and evolution of resistance among gut microbiota under mycotoxin exposure.
+
+#### **Funding**
+
+This work was supported by grants from the Joint Funds of the National Natural Science Foundation of China (U23A20240) and the sub project of "Discipline Construction of Swine and Poultry Breeding Industry" of Special Project on Science and Technology Innovation Strategy (ZX202401).
+
+#### **CRediT authorship contribution statement**
+
+**Fengru Deng:** Writing – review & editing, Writing – original draft, Validation, Supervision, Resources, Project administration, Funding acquisition, Data curation, Conceptualization. **Chuying Yao:** Validation, Software, Project administration, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. **Linyu Ke:** Software, Methodology, Investigation, Formal analysis. **Meichan Chen:** Software, Methodology, Investigation. **Mi Huang:** Investigation. **Jikai Wen:** Resources. **Qingmei Chen:** Resources. **Jun Jiang:** Resources. **Yiqun Deng:** Validation, Supervision, Project administration, Funding acquisition, Data curation, Conceptualization.
+
+#### **Declaration of competing interest**
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
